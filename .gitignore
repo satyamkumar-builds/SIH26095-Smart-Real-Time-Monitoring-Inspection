@@ -1,0 +1,32 @@
+# env variables and secrets (dont touch)
+
+.env
+*.env
+*.pem
+
+# Python and FastAPI
+backend/**/__pycache__/
+backend/**/*.py[cod]
+backend/**/.venv/
+backend/**/venv/
+
+# Node and Web Dashboard
+web-dashboard/**/node_modules/
+web-dashboard/**/dist/
+web-dashboard/**/.next/
+web-dashboard/**/npm-debug.log*
+
+# Flutter Mobile App 
+mobile-app/**/.dart_tool/
+mobile-app/**/.flutter-plugins
+mobile-app/**/.flutter-plugins-dependencies
+mobile-app/**/build/
+mobile-app/**/.packages
+mobile-app/**/.pub/
+
+# IDEs and System files
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
