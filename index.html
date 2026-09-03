@@ -4,55 +4,230 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    
 </head>
 <body>
-<div class="dashboard">
-    <aside>
-        <h1>Inspection Portal</h1>
-        <section>
-    <h2>Supervisor</h2>
-    <p>Compliance Division</p>
-    
-</section>
-<nav>
-    <ul>
-        <li>
-    <a href="dashboard.html">Overview</a>
-        </li>
-        <li><a href="live-feed.html">Live Feed</a></li>
-<li><a href="evidence.html">Evidence</a></li>
-<li><a href="issues.html">Issues</a></li>
-<li><a href="analytics.html">Analytics</a></li>
-<li><a href="admin.html">Admin</a></li>
-
-    </ul>
-</nav>
-<nav>
-    <ul>
-        <li><a href="logs.html">System Logs</a></li>
-        <li><a href="#">Support</a></li>
-    </ul>
-</nav>
-
-</aside>
-
-<main>
-    <header>
-    <h1>Inspection Monitoring</h1>
-    <p>Real-time overview of field inspection activities.</p>
-</header>
-<section>
-    <h2>Inspection Summary</h2>
-    <article>
-    <h3>Total Inspections</h3>
-    <p>128</p>
-    <p>All assigned inspections</p>
-</article>
-<article>...Completed...</article>
-<article>...In Progress...</article>
-</section>
-</main>
-</div>
+    <div class="dashboard">
+        <aside> 
+         <h1>Inspection Portal</h1>
+            <section>
+                <h2>Supervisor</h2>
+                <p>Compliance Division</p>
+            </section>
+               <nav aria-label="Main navigation">
+                <ul>
+                    <li>
+                        <a href="index.html">Overview</a>
+                    </li>
+                    <li>
+                        <a href="live-feed.html">Live Feed</a>
+                    </li>
+                    <li>
+                        <a href="evidence.html">Evidence</a>
+                    </li>
+                    <li>
+                        <a href="issues.html">Issues</a>
+                    </li>
+                    <li>
+                        <a href="analytics.html">Analytics</a>
+                    </li>
+                    <li>
+                        <a href="admin.html">Admin</a>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+    <main>
+        <header>
+                <h1>Inspection Monitoring</h1>
+                <p>
+                    Real-time overview of field inspection activities.
+                </p>
+            </header>
+  <section>
+                <h2>Inspection Summary</h2>
+                <article>
+                    <h3>Total Inspections</h3>
+                    <p>128</p>
+                    <p>All assigned inspections</p>
+                </article>
+                <article>
+                    <h3>Completed</h3>
+                    <p>85</p>
+                    <p>
+                        Successfully completed inspections
+                    </p>
+                </article>
+                   <article>
+                    <h3>In Progress</h3>
+                    <p>24</p>
+                    <p>
+                        Inspections currently underway
+                    </p>
+                </article>
+                <article>
+                    <h3>Pending</h3>
+                    <p>12</p>
+                    <p>
+                        Inspections waiting to begin
+                    </p>
+                </article>
+                <article>
+                    <h3>Overdue</h3>
+                    <p>5</p>
+                    <p>
+                        Inspections past their deadline
+                    </p>
+                </article>
+                <article>
+                    <h3>Critical Issues</h3>
+                    <p>7</p>
+                    <p>
+                        Issues requiring immediate attention
+                    </p>
+                </article>
+            </section>
+             <section>
+                <h2>Active Inspections</h2>
+                <p>
+                    Track inspections currently assigned or in progress.
+                </p>
+                <table>
+                    <caption>
+                        Currently active field inspections
+                    </caption>
+                    <thead>
+                        <tr>
+                            <th scope="col">ID</th>
+                            <th scope="col">Type</th>
+                            <th scope="col">Location</th>
+                            <th scope="col">Inspector</th>
+                            <th scope="col">Progress</th>
+                            <th scope="col">Updated</th>
+                            <th scope="col">Priority</th>
+                            <th scope="col">Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>INS-001</td>
+                            <td>Facility Inspection</td>
+                            <td>Delhi</td>
+                            <td>Inspector A</td>
+                            <td>85%</td>
+                            <td>10 min ago</td>
+                            <td>High</td>
+                            <td>In Progress</td>
+                        </tr>
+                        <tr>
+                            <td>INS-002</td>
+                            <td>Compliance Inspection</td>
+                            <td>Lucknow</td>
+                            <td>Inspector B</td>
+                            <td>60%</td>
+                            <td>18 min ago</td>
+                            <td>Medium</td>
+                            <td>In Progress</td>
+                        </tr>
+                        <tr>
+                            <td>INS-003</td>
+                            <td>Facility Inspection</td>
+                            <td>Kolkata</td>
+                            <td>Inspector C</td>
+                            <td>40%</td>
+                            <td>25 min ago</td>
+                            <td>High</td>
+                            <td>In Progress</td>
+                        </tr>
+                        <tr>
+                            <td>INS-004</td>
+                            <td>Compliance Inspection</td>
+                            <td>Patna</td>
+                           <td>Inspector D</td>
+                            <td>100%</td>
+                            <td>35 min ago</td>
+                            <td>Low</td>
+                            <td>Completed</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+              <section>
+                <h2>Recent Activity</h2>
+                <article>
+                    <h3>Inspection Updated</h3>
+                    <p>
+                        INS-001 evidence was updated by Inspector A.
+                    </p>
+                    <p>
+                        10 minutes ago
+                    </p>
+                </article>
+                <article>
+                    <h3>Critical Issue Reported</h3>
+                    <p>
+                        A critical compliance issue was reported during INS-003.
+                    </p>
+                    <p>
+                        25 minutes ago
+                    </p>
+                </article>
+                <article>
+                    <h3>Inspection Completed</h3>
+                    <p>
+                        INS-004 was completed successfully.
+                    </p>
+                    <p>
+                        35 minutes ago
+                    </p>
+                </article>
+            </section>
+            <section>
+                <h2>Priority Alerts</h2>
+                <article>
+                    <h3>Overdue Inspection</h3>
+                    <p>
+                        INS-005 has passed its scheduled inspection deadline.
+                    </p>
+                    <a href="inspection-detail.html">
+                        Review Inspection
+                    </a>
+                </article>
+                <article>
+                    <h3>Critical Issue Requires Action</h3>
+                    <p>
+                        INS-003 contains a critical issue requiring supervisor review.
+                    </p>
+                    <a href="issues.html">
+                        Review Issue
+                    </a>
+                </article>
+            </section>
+             <section>
+                <h2>Quick Actions</h2>
+                <ul>
+                    <li>
+                        <a href="inspections.html">
+                            View All Inspections
+                        </a>
+                    </li>
+                    <li>
+                        <a href="issues.html">
+                            Review Issues
+                        </a>
+                    </li>
+                    <li>
+                        <a href="evidence.html">
+                            Review Evidence
+                        </a>
+                    </li>
+                    <li>
+                        <a href="reports.html">
+                            View Reports
+                        </a>
+                    </li>
+                </ul>
+            </section>
+        </main>
+    </div>
 </body>
 </html>
