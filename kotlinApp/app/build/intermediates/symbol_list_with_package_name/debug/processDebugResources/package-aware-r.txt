@@ -2901,6 +2901,7 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
+drawable bg_delete_button
 drawable bg_inspection_card
 drawable bg_notification_dot
 drawable bg_offline_dot
@@ -2911,6 +2912,8 @@ drawable bg_profile_circle
 drawable bg_red_status_card
 drawable bg_status_badge
 drawable bg_status_card
+drawable bg_sync_button
+drawable bg_sync_card
 drawable bg_translucent_badge
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
@@ -2958,7 +2961,9 @@ drawable ic_capture
 drawable ic_clear_black_24
 drawable ic_clock_black_24dp
 drawable ic_close
+drawable ic_cloud_sync
 drawable ic_completed
+drawable ic_delete
 drawable ic_discard
 drawable ic_flip_camera
 drawable ic_in_progress
@@ -3148,12 +3153,14 @@ id bottom_camera_controls
 id bottom_navigation
 id bounce
 id btn_close_capture
+id btn_delete_sync_item
 id btn_done_capture
 id btn_left_control
 id btn_notification
 id btn_right_control
 id btn_shutter
 id btn_start_inspection
+id btn_upload_sync_item
 id buttonPanel
 id camera_container
 id cancel_button
@@ -3182,6 +3189,7 @@ id compress
 id confirm_button
 id container
 id container_inspection_cards
+id container_sync_cards
 id content
 id contentPanel
 id contiguous
@@ -3281,6 +3289,7 @@ id img_icon_in_progress
 id img_icon_overdue
 id img_notification_icon
 id img_profile_dp
+id img_sync_evidence_thumbnail
 id indeterminate
 id info
 id invisible
@@ -3291,6 +3300,7 @@ id jumpToEnd
 id jumpToStart
 id labeled
 id layout
+id layout_empty_sync_state
 id left
 id leftToRight
 id left_info_container
@@ -3521,6 +3531,7 @@ id toggle
 id top
 id topPanel
 id topbar_capture
+id topbar_sync
 id topbar_tasks
 id touch_outside
 id transitionToEnd
@@ -3547,11 +3558,18 @@ id tv_overlay_location
 id tv_overlay_time
 id tv_placeholder_title
 id tv_priority_badge
+id tv_sync_inspection_id
+id tv_sync_location
+id tv_sync_priority_badge
+id tv_sync_queue_count
+id tv_sync_time
+id tv_sync_title
 id tv_title_assigned
 id tv_title_capture
 id tv_title_completed
 id tv_title_in_progress
 id tv_title_overdue
+id tv_title_sync
 id tv_user_status
 id unchecked
 id uniform
@@ -3709,10 +3727,12 @@ layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout fragment_capture
 layout fragment_placeholder
+layout fragment_sync
 layout fragment_tasks
 layout ime_base_split_test_activity
 layout ime_secondary_split_test_activity
 layout item_inspection_card
+layout item_sync_card
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title

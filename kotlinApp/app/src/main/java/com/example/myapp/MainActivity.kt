@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity() {
                     true
                 }
                 R.id.navigation_sync -> {
-                    replaceFragment(GenericFragment.newInstance("Sync Screen"))
+                    replaceFragment(SyncFragment())
                     true
                 }
                 R.id.navigation_profile -> {
