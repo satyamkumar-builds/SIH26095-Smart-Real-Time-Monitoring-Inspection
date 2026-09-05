@@ -2882,11 +2882,15 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
+drawable bg_inspection_card
 drawable bg_notification_dot
 drawable bg_offline_dot
 drawable bg_online_dot
 drawable bg_primary_button
+drawable bg_priority_badge
 drawable bg_profile_circle
+drawable bg_red_status_card
+drawable bg_status_badge
 drawable bg_status_card
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
@@ -2915,6 +2919,7 @@ drawable ic_clock_black_24dp
 drawable ic_completed
 drawable ic_in_progress
 drawable ic_keyboard_black_24dp
+drawable ic_location
 drawable ic_m3_chip_check
 drawable ic_m3_chip_checked_circle
 drawable ic_m3_chip_close
@@ -2928,6 +2933,7 @@ drawable ic_profile
 drawable ic_search_black_24
 drawable ic_sync
 drawable ic_tasks
+drawable ic_time
 drawable m3_avd_hide_password
 drawable m3_avd_show_password
 drawable m3_bottom_sheet_drag_handle
@@ -3119,6 +3125,7 @@ id collapseActionView
 id compress
 id confirm_button
 id container
+id container_inspection_cards
 id content
 id contentPanel
 id contiguous
@@ -3354,6 +3361,7 @@ id rightToLeft
 id right_actions_container
 id right_icon
 id right_side
+id root_todays_inspections
 id rounded
 id row_index_key
 id save_non_transition_alpha
@@ -3463,7 +3471,14 @@ id tv_count_completed
 id tv_count_in_progress
 id tv_count_overdue
 id tv_greeting
+id tv_header_todays_inspections
+id tv_inspection_id
+id tv_inspection_location
+id tv_inspection_status
+id tv_inspection_time
+id tv_inspection_title
 id tv_placeholder_title
+id tv_priority_badge
 id tv_title_assigned
 id tv_title_completed
 id tv_title_in_progress
@@ -3624,6 +3639,7 @@ layout fragment_placeholder
 layout fragment_tasks
 layout ime_base_split_test_activity
 layout ime_secondary_split_test_activity
+layout item_inspection_card
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title

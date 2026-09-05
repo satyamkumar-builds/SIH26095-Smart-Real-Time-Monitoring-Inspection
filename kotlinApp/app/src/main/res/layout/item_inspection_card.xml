@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12dp"
+    android:background="@drawable/bg_inspection_card"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Top Row: Inspection ID (Start) and Priority Badge (End) -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_inspection_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="INS-2026-1042"
+            android:textColor="#555555"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_priority_badge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/bg_priority_badge"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="3dp"
+            android:text="HIGH PRIORITY"
+            android:textColor="#1976D2"
+            android:textSize="11sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <!-- Main Title -->
+    <TextView
+        android:id="@+id/tv_inspection_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:text="Facility Inspection"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <!-- Thin Light Gray Horizontal Divider Line -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginVertical="12dp"
+        android:background="#E0E0E0" />
+
+    <!-- Row 1: Location -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:contentDescription="Location Icon"
+            android:src="@drawable/ic_location" />
+
+        <TextView
+            android:id="@+id/tv_inspection_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:text="District 4, Main Utility Plant"
+            android:textColor="#555555"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <!-- Row 2: Time -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:contentDescription="Time Icon"
+            android:src="@drawable/ic_time" />
+
+        <TextView
+            android:id="@+id/tv_inspection_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:text="09:00 AM - 11:30 AM"
+            android:textColor="#555555"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <!-- Bottom Status Badge -->
+    <TextView
+        android:id="@+id/tv_inspection_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/bg_status_badge"
+        android:paddingHorizontal="8dp"
+        android:paddingVertical="4dp"
+        android:text="STATUS: ASSIGNED"
+        android:textColor="#555555"
+        android:textSize="10sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
