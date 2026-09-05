@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#F8F9FA">
@@ -27,17 +28,16 @@
                 android:clickable="true"
                 android:focusable="true">
 
-                <!-- User DP Image -->
-                <ImageView
+                <!-- Perfect Circular Crop ImageView -->
+                <de.hdodenhof.circleimageview.CircleImageView
                     android:id="@+id/img_profile_avatar"
                     android:layout_width="120dp"
                     android:layout_height="120dp"
-                    android:background="@drawable/bg_profile_circle"
-                    android:clipToOutline="true"
                     android:contentDescription="User Avatar"
-                    android:padding="16dp"
-                    android:scaleType="centerCrop"
-                    android:src="@drawable/ic_profile" />
+                    android:src="@drawable/ic_profile"
+                    app:civ_border_color="#CCCCCC"
+                    app:civ_border_width="1dp"
+                    app:civ_circle_background_color="#E0E0E0" />
 
                 <!-- Camera Overlay Icon Badge -->
                 <ImageView
@@ -228,7 +228,6 @@
                     android:textSize="14sp"
                     android:textStyle="bold" />
 
-                <!-- Radio Group for Light/Dark Mode -->
                 <RadioGroup
                     android:id="@+id/rg_theme"
                     android:layout_width="match_parent"
@@ -260,7 +259,7 @@
         </LinearLayout>
     </ScrollView>
 
-    <!-- Bottom Footer Text: 'Made with ❤️ by Rox' -->
+    <!-- Bottom Footer Text -->
     <TextView
         android:id="@+id/tv_footer_credits"
         android:layout_width="match_parent"

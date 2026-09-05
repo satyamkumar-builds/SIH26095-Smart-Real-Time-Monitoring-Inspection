@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.myapp-mergeDebugResources-36:/values-en-rCA/values-en-rCA.xml",
+            "outputFile": "com.example.myapp-mergeDebugResources-37:/values-en-rCA/values-en-rCA.xml",
             "map": [
                 {
                     "source": "/home/kali/.gradle/caches/9.7.1/transforms/f7a9bce0793abfc1b145de89f3800428/transformed/core-1.12.0/res/values-en-rCA/values-en-rCA.xml",

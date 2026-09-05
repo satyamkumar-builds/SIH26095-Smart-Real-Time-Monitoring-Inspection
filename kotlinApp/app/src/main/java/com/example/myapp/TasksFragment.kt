@@ -8,13 +8,14 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
-import android.widget.ImageView
 import android.widget.LinearLayout
 import android.widget.TextView
 import android.widget.Toast
 import androidx.fragment.app.Fragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
+import de.hdodenhof.circleimageview.CircleImageView
 import org.json.JSONArray
+import java.io.File
 import java.util.Calendar
 
 class TasksFragment : Fragment() {
@@ -41,7 +42,7 @@ class TasksFragment : Fragment() {
         val viewStatusDot = view.findViewById<View>(R.id.view_status_dot)
         val viewNotificationDot = view.findViewById<View>(R.id.view_notification_dot)
         val btnNotification = view.findViewById<View>(R.id.btn_notification)
-        val imgProfileDp = view.findViewById<ImageView>(R.id.img_profile_dp)
+        val imgProfileDp = view.findViewById<CircleImageView>(R.id.img_profile_dp)
 
         val tvCountAssigned = view.findViewById<TextView>(R.id.tv_count_assigned)
         val tvCountInProgress = view.findViewById<TextView>(R.id.tv_count_in_progress)
@@ -51,7 +52,7 @@ class TasksFragment : Fragment() {
         val btnStartInspection = view.findViewById<Button>(R.id.btn_start_inspection)
         val containerCards = view.findViewById<LinearLayout>(R.id.container_inspection_cards)
 
-        // 1. Load User Preferences (First Name & Selected DP URI)
+        // 1. Load User Preferences (First Name & Saved DP File Path)
         loadUserPreferences(imgProfileDp)
 
         // 2. Set Dynamic Time-Based Greeting
@@ -87,13 +88,16 @@ class TasksFragment : Fragment() {
         return view
     }
 
-    private fun loadUserPreferences(imgProfileDp: ImageView) {
+    private fun loadUserPreferences(imgProfileDp: CircleImageView) {
         val prefs = requireContext().getSharedPreferences("user_prefs", Context.MODE_PRIVATE)
         userFirstName = prefs.getString("user_first_name", "Rahul") ?: "Rahul"
 
-        val dpUriString = prefs.getString("custom_dp_uri", null)
-        if (dpUriString != null) {
-            imgProfileDp.setImageURI(Uri.parse(dpUriString))
+        val dpPath = prefs.getString("custom_dp_path", null)
+        if (dpPath != null) {
+            val file = File(dpPath)
+            if (file.exists()) {
+                imgProfileDp.setImageURI(Uri.fromFile(file))
+            }
         }
     }
 

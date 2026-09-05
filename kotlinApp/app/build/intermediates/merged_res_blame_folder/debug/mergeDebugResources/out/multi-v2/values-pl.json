@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.myapp-mergeDebugResources-36:/values-pl/values-pl.xml",
+            "outputFile": "com.example.myapp-mergeDebugResources-37:/values-pl/values-pl.xml",
             "map": [
                 {
                     "source": "/home/kali/.gradle/caches/9.7.1/transforms/be18d78b52203ca9364d4f8da07de3f9/transformed/play-services-basement-18.3.0/res/values-pl/values.xml",

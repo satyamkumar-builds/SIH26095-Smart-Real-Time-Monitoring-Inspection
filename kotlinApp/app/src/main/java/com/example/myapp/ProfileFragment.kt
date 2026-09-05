@@ -19,10 +19,13 @@ import android.widget.Toast
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatDelegate
 import androidx.fragment.app.Fragment
+import de.hdodenhof.circleimageview.CircleImageView
+import java.io.File
+import java.io.FileOutputStream
 
 class ProfileFragment : Fragment() {
 
-    private lateinit var imgProfileAvatar: ImageView
+    private lateinit var imgProfileAvatar: CircleImageView
     private lateinit var tvProfileDisplayName: TextView
     private lateinit var tabBtnProfile: TextView
     private lateinit var tabBtnSettings: TextView
@@ -42,16 +45,19 @@ class ProfileFragment : Fragment() {
 
     private lateinit var tvFooterCredits: TextView
 
-    // Gallery Picker launcher to update DP throughout the app
+    // Gallery Picker launcher: Copy picked image to internal storage so URI permission persists across restarts
     private val pickImageLauncher = registerForActivityResult(
         ActivityResultContracts.GetContent()
     ) { uri: Uri? ->
-        uri?.let {
-            val prefs = requireContext().getSharedPreferences("user_prefs", Context.MODE_PRIVATE)
-            prefs.edit().putString("custom_dp_uri", it.toString()).apply()
+        uri?.let { sourceUri ->
+            val savedPath = saveImageToInternalStorage(sourceUri)
+            if (savedPath != null) {
+                val prefs = requireContext().getSharedPreferences("user_prefs", Context.MODE_PRIVATE)
+                prefs.edit().putString("custom_dp_path", savedPath).apply()
 
-            imgProfileAvatar.setImageURI(it)
-            Toast.makeText(requireContext(), "Profile picture updated!", Toast.LENGTH_SHORT).show()
+                imgProfileAvatar.setImageURI(Uri.fromFile(File(savedPath)))
+                Toast.makeText(requireContext(), "Profile picture updated!", Toast.LENGTH_SHORT).show()
+            }
         }
     }
 
@@ -92,7 +98,7 @@ class ProfileFragment : Fragment() {
             pickImageLauncher.launch("image/*")
         }
 
-        // 3. Tab Switching Handlers (Profile vs Settings)
+        // 3. Tab Switching Handlers
         tabBtnProfile.setOnClickListener {
             showTab(isProfile = true)
         }
@@ -135,13 +141,28 @@ class ProfileFragment : Fragment() {
             }
         }
 
-        // 6. Footer Credits Click Handler -> Redirect to GitHub
+        // 6. Footer Credits Click Handler
         tvFooterCredits.setOnClickListener {
             val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/RanvirRox"))
             startActivity(browserIntent)
         }
 
         return view
+    }
+
+    private fun saveImageToInternalStorage(uri: Uri): String? {
+        return try {
+            val inputStream = requireContext().contentResolver.openInputStream(uri) ?: return null
+            val file = File(requireContext().filesDir, "user_profile_dp.jpg")
+            val outputStream = FileOutputStream(file)
+            inputStream.copyTo(outputStream)
+            inputStream.close()
+            outputStream.close()
+            file.absolutePath
+        } catch (e: Exception) {
+            e.printStackTrace()
+            null
+        }
     }
 
     private fun showTab(isProfile: Boolean) {
@@ -178,9 +199,12 @@ class ProfileFragment : Fragment() {
         etPhone.setText(phone)
         tvProfileDisplayName.text = firstName
 
-        val dpUriString = prefs.getString("custom_dp_uri", null)
-        if (dpUriString != null) {
-            imgProfileAvatar.setImageURI(Uri.parse(dpUriString))
+        val dpPath = prefs.getString("custom_dp_path", null)
+        if (dpPath != null) {
+            val file = File(dpPath)
+            if (file.exists()) {
+                imgProfileAvatar.setImageURI(Uri.fromFile(file))
+            }
         }
 
         val isDark = prefs.getBoolean("is_dark_mode", false)
