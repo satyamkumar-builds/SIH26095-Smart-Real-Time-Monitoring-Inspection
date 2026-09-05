@@ -2885,7 +2885,9 @@ drawable avd_show_password
 drawable bg_notification_dot
 drawable bg_offline_dot
 drawable bg_online_dot
+drawable bg_primary_button
 drawable bg_profile_circle
+drawable bg_status_card
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -2900,6 +2902,7 @@ drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
 drawable ic_arrow_back_black_24
+drawable ic_assigned
 drawable ic_call_answer
 drawable ic_call_answer_low
 drawable ic_call_answer_video
@@ -2909,6 +2912,8 @@ drawable ic_call_decline_low
 drawable ic_capture
 drawable ic_clear_black_24
 drawable ic_clock_black_24dp
+drawable ic_completed
+drawable ic_in_progress
 drawable ic_keyboard_black_24dp
 drawable ic_m3_chip_check
 drawable ic_m3_chip_checked_circle
@@ -2918,6 +2923,7 @@ drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_notification
+drawable ic_overdue
 drawable ic_profile
 drawable ic_search_black_24
 drawable ic_sync
@@ -3087,8 +3093,13 @@ id bottom
 id bottom_navigation
 id bounce
 id btn_notification
+id btn_start_inspection
 id buttonPanel
 id cancel_button
+id card_assigned
+id card_completed
+id card_in_progress
+id card_overdue
 id center
 id centerCrop
 id centerInside
@@ -3180,6 +3191,7 @@ id ghost_view_holder
 id gone
 id graph
 id graph_wrap
+id grid_status_cards
 id group_divider
 id groups
 id header_title
@@ -3194,6 +3206,10 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id img_icon_assigned
+id img_icon_completed
+id img_icon_in_progress
+id img_icon_overdue
 id img_notification_icon
 id img_profile_dp
 id indeterminate
@@ -3243,6 +3259,7 @@ id matrix
 id message
 id middle
 id mini
+id module_status_container
 id month_grid
 id month_navigation_bar
 id month_navigation_fragment_toggle
@@ -3418,7 +3435,6 @@ id textTop
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
-id text_tasks_placeholder
 id textinput_counter
 id textinput_error
 id textinput_helper_text
@@ -3442,8 +3458,16 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id tv_count_assigned
+id tv_count_completed
+id tv_count_in_progress
+id tv_count_overdue
 id tv_greeting
 id tv_placeholder_title
+id tv_title_assigned
+id tv_title_completed
+id tv_title_in_progress
+id tv_title_overdue
 id tv_user_status
 id unchecked
 id uniform

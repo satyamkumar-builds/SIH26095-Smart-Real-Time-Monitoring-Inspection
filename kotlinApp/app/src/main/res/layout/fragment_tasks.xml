@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#F8F9FA">
 
-    <!-- topbar of tasks tab -->
+    <!-- TOPBAR SPECIFIC TO TASKS PAGE -->
     <RelativeLayout
         android:id="@+id/topbar_tasks"
         android:layout_width="match_parent"
@@ -15,7 +14,7 @@
         android:paddingHorizontal="16dp"
         android:paddingVertical="14dp">
 
-        <!--left align contents -->
+        <!-- Left Side Container: Greeting and Status -->
         <LinearLayout
             android:id="@+id/left_info_container"
             android:layout_width="wrap_content"
@@ -25,7 +24,7 @@
             android:layout_toLeftOf="@id/right_actions_container"
             android:orientation="vertical">
 
-            <!-- greeting -->
+            <!-- Greeting -->
             <TextView
                 android:id="@+id/tv_greeting"
                 android:layout_width="wrap_content"
@@ -35,6 +34,7 @@
                 android:textSize="23sp"
                 android:textStyle="bold" />
 
+            <!-- Sub-status Container -->
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -42,7 +42,6 @@
                 android:gravity="center_vertical"
                 android:orientation="horizontal">
 
-                <!-- Status dot -->
                 <View
                     android:id="@+id/view_status_dot"
                     android:layout_width="8dp"
@@ -50,7 +49,6 @@
                     android:layout_marginRight="6dp"
                     android:background="@drawable/bg_online_dot" />
 
-                <!-- sync status -->
                 <TextView
                     android:id="@+id/tv_user_status"
                     android:layout_width="wrap_content"
@@ -61,7 +59,7 @@
             </LinearLayout>
         </LinearLayout>
 
-        <!-- Right aligned contents -->
+        <!-- Right Side Container: Notification & Profile DP -->
         <LinearLayout
             android:id="@+id/right_actions_container"
             android:layout_width="wrap_content"
@@ -71,7 +69,6 @@
             android:gravity="center_vertical"
             android:orientation="horizontal">
 
-            <!-- notification option -->
             <RelativeLayout
                 android:id="@+id/btn_notification"
                 android:layout_width="40dp"
@@ -81,7 +78,6 @@
                 android:clickable="true"
                 android:focusable="true">
 
-                <!-- notification icon -->
                 <ImageView
                     android:id="@+id/img_notification_icon"
                     android:layout_width="24dp"
@@ -90,7 +86,6 @@
                     android:contentDescription="Notifications"
                     android:src="@drawable/ic_notification" />
 
-                <!-- red dot -->
                 <View
                     android:id="@+id/view_notification_dot"
                     android:layout_width="9dp"
@@ -103,7 +98,6 @@
                     android:visibility="visible" />
             </RelativeLayout>
 
-            <!-- User DP -->
             <ImageView
                 android:id="@+id/img_profile_dp"
                 android:layout_width="40dp"
@@ -116,18 +110,223 @@
                 android:scaleType="centerInside"
                 android:src="@drawable/ic_profile" />
         </LinearLayout>
-
     </RelativeLayout>
 
-    <!-- Tasks Main Screen Content Below Topbar -->
-    <TextView
-        android:id="@+id/text_tasks_placeholder"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <!-- MAIN SCROLLABLE CONTENT AREA FOR TASKS PAGE -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_below="@id/topbar_tasks"
-        android:layout_centerInParent="true"
-        android:text="Tasks Content Area"
-        android:textColor="#888888"
-        android:textSize="18sp" />
+        android:fillViewport="true">
+
+        <!-- ROOT MODULE CONTAINER FOR STATUS GRID & ACTION BUTTON -->
+        <LinearLayout
+            android:id="@+id/module_status_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- 2x2 GRID STRUCTURE FOR STATUS CARDS -->
+            <GridLayout
+                android:id="@+id/grid_status_cards"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:columnCount="2"
+                android:rowCount="2">
+
+                <!-- 1. ASSIGNED CARD -->
+                <RelativeLayout
+                    android:id="@+id/card_assigned"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="6dp"
+                    android:background="@drawable/bg_status_card"
+                    android:elevation="2dp"
+                    android:padding="12dp">
+
+                    <TextView
+                        android:id="@+id/tv_title_assigned"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:text="ASSIGNED"
+                        android:textColor="#555555"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/img_icon_assigned"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentTop="true"
+                        android:contentDescription="Assigned Icon"
+                        android:src="@drawable/ic_assigned" />
+
+                    <TextView
+                        android:id="@+id/tv_count_assigned"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentBottom="true"
+                        android:text="8"
+                        android:textColor="#1A1A1A"
+                        android:textSize="32sp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+                <!-- 2. IN PROGRESS CARD -->
+                <RelativeLayout
+                    android:id="@+id/card_in_progress"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="6dp"
+                    android:background="@drawable/bg_status_card"
+                    android:elevation="2dp"
+                    android:padding="12dp">
+
+                    <TextView
+                        android:id="@+id/tv_title_in_progress"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:text="IN PROGRESS"
+                        android:textColor="#555555"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/img_icon_in_progress"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentTop="true"
+                        android:contentDescription="In Progress Icon"
+                        android:src="@drawable/ic_in_progress" />
+
+                    <TextView
+                        android:id="@+id/tv_count_in_progress"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentBottom="true"
+                        android:text="5"
+                        android:textColor="#1A1A1A"
+                        android:textSize="32sp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+                <!-- 3. COMPLETED CARD -->
+                <RelativeLayout
+                    android:id="@+id/card_completed"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="6dp"
+                    android:background="@drawable/bg_status_card"
+                    android:elevation="2dp"
+                    android:padding="12dp">
+
+                    <TextView
+                        android:id="@+id/tv_title_completed"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:text="COMPLETED"
+                        android:textColor="#555555"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/img_icon_completed"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentTop="true"
+                        android:contentDescription="Completed Icon"
+                        android:src="@drawable/ic_completed" />
+
+                    <TextView
+                        android:id="@+id/tv_count_completed"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentBottom="true"
+                        android:text="24"
+                        android:textColor="#1A1A1A"
+                        android:textSize="32sp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+                <!-- 4. OVERDUE CARD -->
+                <RelativeLayout
+                    android:id="@+id/card_overdue"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="6dp"
+                    android:background="@drawable/bg_status_card"
+                    android:elevation="2dp"
+                    android:padding="12dp">
+
+                    <TextView
+                        android:id="@+id/tv_title_overdue"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:text="OVERDUE"
+                        android:textColor="#555555"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/img_icon_overdue"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentTop="true"
+                        android:contentDescription="Overdue Icon"
+                        android:src="@drawable/ic_overdue" />
+
+                    <TextView
+                        android:id="@+id/tv_count_overdue"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentBottom="true"
+                        android:text="2"
+                        android:textColor="#1A1A1A"
+                        android:textSize="32sp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+            </GridLayout>
+
+            <!-- START INSPECTION FULL WIDTH BUTTON -->
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_start_inspection"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginHorizontal="6dp"
+                android:background="@drawable/bg_primary_button"
+                android:text="Start Inspection"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </ScrollView>
 
 </RelativeLayout>
