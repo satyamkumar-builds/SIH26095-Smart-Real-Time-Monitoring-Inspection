@@ -1,6 +1,7 @@
 R_DEF: Internal format may change without notice
 local
 color bottom_nav_colors
+drawable bg_camera_badge
 drawable bg_delete_button
 drawable bg_inspection_card
 drawable bg_notification_dot
@@ -14,8 +15,11 @@ drawable bg_status_badge
 drawable bg_status_card
 drawable bg_sync_button
 drawable bg_sync_card
+drawable bg_tab_selected
+drawable bg_tab_unselected
 drawable bg_translucent_badge
 drawable ic_assigned
+drawable ic_camera_overlay
 drawable ic_capture
 drawable ic_close
 drawable ic_cloud_sync
@@ -35,12 +39,14 @@ drawable ic_tasks
 drawable ic_time
 id bottom_camera_controls
 id bottom_navigation
+id btn_change_dp
 id btn_close_capture
 id btn_delete_sync_item
 id btn_done_capture
 id btn_left_control
 id btn_notification
 id btn_right_control
+id btn_save_profile
 id btn_shutter
 id btn_start_inspection
 id btn_upload_sync_item
@@ -49,8 +55,13 @@ id card_assigned
 id card_completed
 id card_in_progress
 id card_overdue
+id container_dp
 id container_inspection_cards
 id container_sync_cards
+id et_email
+id et_first_name
+id et_last_name
+id et_phone
 id fragment_container
 id grid_status_cards
 id img_captured_preview
@@ -59,17 +70,25 @@ id img_icon_completed
 id img_icon_in_progress
 id img_icon_overdue
 id img_notification_icon
+id img_profile_avatar
 id img_profile_dp
 id img_sync_evidence_thumbnail
 id layout_empty_sync_state
+id layout_profile_form
+id layout_settings_form
 id left_info_container
 id module_status_container
 id navigation_capture
 id navigation_profile
 id navigation_sync
 id navigation_tasks
+id rb_theme_dark
+id rb_theme_light
+id rg_theme
 id right_actions_container
 id root_todays_inspections
+id tab_btn_profile
+id tab_btn_settings
 id topbar_capture
 id topbar_sync
 id topbar_tasks
@@ -77,6 +96,7 @@ id tv_count_assigned
 id tv_count_completed
 id tv_count_in_progress
 id tv_count_overdue
+id tv_footer_credits
 id tv_greeting
 id tv_header_todays_inspections
 id tv_inspection_id
@@ -89,6 +109,7 @@ id tv_overlay_location
 id tv_overlay_time
 id tv_placeholder_title
 id tv_priority_badge
+id tv_profile_display_name
 id tv_sync_inspection_id
 id tv_sync_location
 id tv_sync_priority_badge
@@ -109,6 +130,7 @@ layout activity_main
 layout activity_notification
 layout fragment_capture
 layout fragment_placeholder
+layout fragment_profile
 layout fragment_sync
 layout fragment_tasks
 layout item_inspection_card

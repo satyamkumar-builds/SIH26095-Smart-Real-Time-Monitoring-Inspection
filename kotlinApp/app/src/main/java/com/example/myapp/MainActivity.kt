@@ -33,7 +33,7 @@ class MainActivity : AppCompatActivity() {
                     true
                 }
                 R.id.navigation_profile -> {
-                    replaceFragment(GenericFragment.newInstance("Profile Screen"))
+                    replaceFragment(ProfileFragment())
                     true
                 }
                 else -> false

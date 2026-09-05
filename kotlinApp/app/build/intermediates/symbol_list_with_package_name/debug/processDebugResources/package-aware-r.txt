@@ -2901,6 +2901,7 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
+drawable bg_camera_badge
 drawable bg_delete_button
 drawable bg_inspection_card
 drawable bg_notification_dot
@@ -2914,6 +2915,8 @@ drawable bg_status_badge
 drawable bg_status_card
 drawable bg_sync_button
 drawable bg_sync_card
+drawable bg_tab_selected
+drawable bg_tab_unselected
 drawable bg_translucent_badge
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
@@ -2957,6 +2960,7 @@ drawable ic_call_answer_video
 drawable ic_call_answer_video_low
 drawable ic_call_decline
 drawable ic_call_decline_low
+drawable ic_camera_overlay
 drawable ic_capture
 drawable ic_clear_black_24
 drawable ic_clock_black_24dp
@@ -3152,12 +3156,14 @@ id bottom
 id bottom_camera_controls
 id bottom_navigation
 id bounce
+id btn_change_dp
 id btn_close_capture
 id btn_delete_sync_item
 id btn_done_capture
 id btn_left_control
 id btn_notification
 id btn_right_control
+id btn_save_profile
 id btn_shutter
 id btn_start_inspection
 id btn_upload_sync_item
@@ -3188,6 +3194,7 @@ id compatible
 id compress
 id confirm_button
 id container
+id container_dp
 id container_inspection_cards
 id container_sync_cards
 id content
@@ -3238,6 +3245,10 @@ id end
 id endToStart
 id enterAlways
 id enterAlwaysCollapsed
+id et_email
+id et_first_name
+id et_last_name
+id et_phone
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -3288,6 +3299,7 @@ id img_icon_completed
 id img_icon_in_progress
 id img_icon_overdue
 id img_notification_icon
+id img_profile_avatar
 id img_profile_dp
 id img_sync_evidence_thumbnail
 id indeterminate
@@ -3301,6 +3313,8 @@ id jumpToStart
 id labeled
 id layout
 id layout_empty_sync_state
+id layout_profile_form
+id layout_settings_form
 id left
 id leftToRight
 id left_info_container
@@ -3427,9 +3441,12 @@ id progress_circular
 id progress_horizontal
 id radio
 id ratio
+id rb_theme_dark
+id rb_theme_light
 id rectangles
 id report_drawn
 id reverseSawtooth
+id rg_theme
 id right
 id rightToLeft
 id right_actions_container
@@ -3494,6 +3511,8 @@ id stretch
 id submenuarrow
 id submit_area
 id tabMode
+id tab_btn_profile
+id tab_btn_settings
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
 id tag_accessibility_heading
@@ -3546,6 +3565,7 @@ id tv_count_assigned
 id tv_count_completed
 id tv_count_in_progress
 id tv_count_overdue
+id tv_footer_credits
 id tv_greeting
 id tv_header_todays_inspections
 id tv_inspection_id
@@ -3558,6 +3578,7 @@ id tv_overlay_location
 id tv_overlay_time
 id tv_placeholder_title
 id tv_priority_badge
+id tv_profile_display_name
 id tv_sync_inspection_id
 id tv_sync_location
 id tv_sync_priority_badge
@@ -3727,6 +3748,7 @@ layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout fragment_capture
 layout fragment_placeholder
+layout fragment_profile
 layout fragment_sync
 layout fragment_tasks
 layout ime_base_split_test_activity

@@ -1,55 +1,15 @@
 [
     {
-        "merged": "/home/kali/.gradle/daemon/9.7.1/com.example.myapp-debug-38:/color_bottom_nav_colors.xml.flat",
-        "source": "/home/kali/.gradle/daemon/9.7.1/com.example.myapp-main-40:/color/bottom_nav_colors.xml"
-    },
-    {
-        "merged": "/home/kali/.gradle/daemon/9.7.1/com.example.myapp-debug-38:/drawable_ic_delete.xml.flat",
-        "source": "/home/kali/.gradle/daemon/9.7.1/com.example.myapp-main-40:/drawable/ic_delete.xml"
-    },
-    {
-        "merged": "/home/kali/.gradle/daemon/9.7.1/com.example.myapp-debug-38:/drawable_bg_priority_badge.xml.flat",
-        "source": "/home/kali/.gradle/daemon/9.7.1/com.example.myapp-main-40:/drawable/bg_priority_badge.xml"
-    },
-    {
-        "merged": "/home/kali/.gradle/daemon/9.7.1/com.example.myapp-debug-38:/drawable_bg_status_badge.xml.flat",
-        "source": "/home/kali/.gradle/daemon/9.7.1/com.example.myapp-main-40:/drawable/bg_status_badge.xml"
-    },
-    {
         "merged": "/home/kali/.gradle/daemon/9.7.1/com.example.myapp-debug-38:/drawable_ic_profile.xml.flat",
         "source": "/home/kali/.gradle/daemon/9.7.1/com.example.myapp-main-40:/drawable/ic_profile.xml"
-    },
-    {
-        "merged": "/home/kali/.gradle/daemon/9.7.1/com.example.myapp-debug-38:/drawable_bg_translucent_badge.xml.flat",
-        "source": "/home/kali/.gradle/daemon/9.7.1/com.example.myapp-main-40:/drawable/bg_translucent_badge.xml"
-    },
-    {
-        "merged": "/home/kali/.gradle/daemon/9.7.1/com.example.myapp-debug-38:/drawable_bg_sync_card.xml.flat",
-        "source": "/home/kali/.gradle/daemon/9.7.1/com.example.myapp-main-40:/drawable/bg_sync_card.xml"
-    },
-    {
-        "merged": "com.example.myapp-debug-38:/drawable_bg_sync_card.xml.flat",
-        "source": "com.example.myapp-main-40:/drawable/bg_sync_card.xml"
-    },
-    {
-        "merged": "/home/kali/.gradle/daemon/9.7.1/com.example.myapp-debug-38:/drawable_ic_close.xml.flat",
-        "source": "/home/kali/.gradle/daemon/9.7.1/com.example.myapp-main-40:/drawable/ic_close.xml"
-    },
-    {
-        "merged": "/home/kali/.gradle/daemon/9.7.1/com.example.myapp-debug-38:/drawable_ic_tasks.xml.flat",
-        "source": "/home/kali/.gradle/daemon/9.7.1/com.example.myapp-main-40:/drawable/ic_tasks.xml"
-    },
-    {
-        "merged": "/home/kali/.gradle/daemon/9.7.1/com.example.myapp-debug-38:/layout_fragment_placeholder.xml.flat",
-        "source": "/home/kali/.gradle/daemon/9.7.1/com.example.myapp-main-40:/layout/fragment_placeholder.xml"
     },
     {
         "merged": "/home/kali/.gradle/daemon/9.7.1/com.example.myapp-debug-38:/menu_bottom_nav_menu.xml.flat",
         "source": "/home/kali/.gradle/daemon/9.7.1/com.example.myapp-main-40:/menu/bottom_nav_menu.xml"
     },
     {
-        "merged": "/home/kali/.gradle/daemon/9.7.1/com.example.myapp-debug-38:/drawable_ic_save_gallery.xml.flat",
-        "source": "/home/kali/.gradle/daemon/9.7.1/com.example.myapp-main-40:/drawable/ic_save_gallery.xml"
+        "merged": "/home/kali/.gradle/daemon/9.7.1/com.example.myapp-debug-38:/drawable_bg_tab_unselected.xml.flat",
+        "source": "/home/kali/.gradle/daemon/9.7.1/com.example.myapp-main-40:/drawable/bg_tab_unselected.xml"
     },
     {
         "merged": "/home/kali/.gradle/daemon/9.7.1/com.example.myapp-debug-38:/layout_activity_main.xml.flat",
@@ -76,8 +36,108 @@
         "source": "/home/kali/.gradle/daemon/9.7.1/com.example.myapp-main-40:/drawable/ic_completed.xml"
     },
     {
+        "merged": "/home/kali/.gradle/daemon/9.7.1/com.example.myapp-debug-38:/drawable_ic_camera_overlay.xml.flat",
+        "source": "/home/kali/.gradle/daemon/9.7.1/com.example.myapp-main-40:/drawable/ic_camera_overlay.xml"
+    },
+    {
         "merged": "/home/kali/.gradle/daemon/9.7.1/com.example.myapp-debug-38:/drawable_bg_profile_circle.xml.flat",
         "source": "/home/kali/.gradle/daemon/9.7.1/com.example.myapp-main-40:/drawable/bg_profile_circle.xml"
+    },
+    {
+        "merged": "/home/kali/.gradle/daemon/9.7.1/com.example.myapp-debug-38:/drawable_ic_sync.xml.flat",
+        "source": "/home/kali/.gradle/daemon/9.7.1/com.example.myapp-main-40:/drawable/ic_sync.xml"
+    },
+    {
+        "merged": "/home/kali/.gradle/daemon/9.7.1/com.example.myapp-debug-38:/drawable_bg_offline_dot.xml.flat",
+        "source": "/home/kali/.gradle/daemon/9.7.1/com.example.myapp-main-40:/drawable/bg_offline_dot.xml"
+    },
+    {
+        "merged": "/home/kali/.gradle/daemon/9.7.1/com.example.myapp-debug-38:/drawable_ic_notification.xml.flat",
+        "source": "/home/kali/.gradle/daemon/9.7.1/com.example.myapp-main-40:/drawable/ic_notification.xml"
+    },
+    {
+        "merged": "/home/kali/.gradle/daemon/9.7.1/com.example.myapp-debug-38:/drawable_bg_notification_dot.xml.flat",
+        "source": "/home/kali/.gradle/daemon/9.7.1/com.example.myapp-main-40:/drawable/bg_notification_dot.xml"
+    },
+    {
+        "merged": "/home/kali/.gradle/daemon/9.7.1/com.example.myapp-debug-38:/drawable_bg_primary_button.xml.flat",
+        "source": "/home/kali/.gradle/daemon/9.7.1/com.example.myapp-main-40:/drawable/bg_primary_button.xml"
+    },
+    {
+        "merged": "/home/kali/.gradle/daemon/9.7.1/com.example.myapp-debug-38:/drawable_ic_cloud_sync.xml.flat",
+        "source": "/home/kali/.gradle/daemon/9.7.1/com.example.myapp-main-40:/drawable/ic_cloud_sync.xml"
+    },
+    {
+        "merged": "/home/kali/.gradle/daemon/9.7.1/com.example.myapp-debug-38:/drawable_ic_discard.xml.flat",
+        "source": "/home/kali/.gradle/daemon/9.7.1/com.example.myapp-main-40:/drawable/ic_discard.xml"
+    },
+    {
+        "merged": "/home/kali/.gradle/daemon/9.7.1/com.example.myapp-debug-38:/drawable_ic_time.xml.flat",
+        "source": "/home/kali/.gradle/daemon/9.7.1/com.example.myapp-main-40:/drawable/ic_time.xml"
+    },
+    {
+        "merged": "/home/kali/.gradle/daemon/9.7.1/com.example.myapp-debug-38:/layout_fragment_profile.xml.flat",
+        "source": "/home/kali/.gradle/daemon/9.7.1/com.example.myapp-main-40:/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "/home/kali/.gradle/daemon/9.7.1/com.example.myapp-debug-38:/drawable_ic_assigned.xml.flat",
+        "source": "/home/kali/.gradle/daemon/9.7.1/com.example.myapp-main-40:/drawable/ic_assigned.xml"
+    },
+    {
+        "merged": "/home/kali/.gradle/daemon/9.7.1/com.example.myapp-debug-38:/drawable_ic_shutter.xml.flat",
+        "source": "/home/kali/.gradle/daemon/9.7.1/com.example.myapp-main-40:/drawable/ic_shutter.xml"
+    },
+    {
+        "merged": "/home/kali/.gradle/daemon/9.7.1/com.example.myapp-debug-38:/color_bottom_nav_colors.xml.flat",
+        "source": "/home/kali/.gradle/daemon/9.7.1/com.example.myapp-main-40:/color/bottom_nav_colors.xml"
+    },
+    {
+        "merged": "/home/kali/.gradle/daemon/9.7.1/com.example.myapp-debug-38:/drawable_ic_delete.xml.flat",
+        "source": "/home/kali/.gradle/daemon/9.7.1/com.example.myapp-main-40:/drawable/ic_delete.xml"
+    },
+    {
+        "merged": "/home/kali/.gradle/daemon/9.7.1/com.example.myapp-debug-38:/drawable_bg_priority_badge.xml.flat",
+        "source": "/home/kali/.gradle/daemon/9.7.1/com.example.myapp-main-40:/drawable/bg_priority_badge.xml"
+    },
+    {
+        "merged": "/home/kali/.gradle/daemon/9.7.1/com.example.myapp-debug-38:/drawable_bg_camera_badge.xml.flat",
+        "source": "/home/kali/.gradle/daemon/9.7.1/com.example.myapp-main-40:/drawable/bg_camera_badge.xml"
+    },
+    {
+        "merged": "com.example.myapp-debug-38:/drawable_ic_camera_overlay.xml.flat",
+        "source": "com.example.myapp-main-40:/drawable/ic_camera_overlay.xml"
+    },
+    {
+        "merged": "/home/kali/.gradle/daemon/9.7.1/com.example.myapp-debug-38:/drawable_bg_status_badge.xml.flat",
+        "source": "/home/kali/.gradle/daemon/9.7.1/com.example.myapp-main-40:/drawable/bg_status_badge.xml"
+    },
+    {
+        "merged": "/home/kali/.gradle/daemon/9.7.1/com.example.myapp-debug-38:/drawable_bg_translucent_badge.xml.flat",
+        "source": "/home/kali/.gradle/daemon/9.7.1/com.example.myapp-main-40:/drawable/bg_translucent_badge.xml"
+    },
+    {
+        "merged": "/home/kali/.gradle/daemon/9.7.1/com.example.myapp-debug-38:/drawable_bg_sync_card.xml.flat",
+        "source": "/home/kali/.gradle/daemon/9.7.1/com.example.myapp-main-40:/drawable/bg_sync_card.xml"
+    },
+    {
+        "merged": "/home/kali/.gradle/daemon/9.7.1/com.example.myapp-debug-38:/drawable_ic_close.xml.flat",
+        "source": "/home/kali/.gradle/daemon/9.7.1/com.example.myapp-main-40:/drawable/ic_close.xml"
+    },
+    {
+        "merged": "/home/kali/.gradle/daemon/9.7.1/com.example.myapp-debug-38:/layout_fragment_placeholder.xml.flat",
+        "source": "/home/kali/.gradle/daemon/9.7.1/com.example.myapp-main-40:/layout/fragment_placeholder.xml"
+    },
+    {
+        "merged": "/home/kali/.gradle/daemon/9.7.1/com.example.myapp-debug-38:/drawable_ic_tasks.xml.flat",
+        "source": "/home/kali/.gradle/daemon/9.7.1/com.example.myapp-main-40:/drawable/ic_tasks.xml"
+    },
+    {
+        "merged": "/home/kali/.gradle/daemon/9.7.1/com.example.myapp-debug-38:/drawable_ic_save_gallery.xml.flat",
+        "source": "/home/kali/.gradle/daemon/9.7.1/com.example.myapp-main-40:/drawable/ic_save_gallery.xml"
+    },
+    {
+        "merged": "com.example.myapp-debug-38:/drawable_bg_camera_badge.xml.flat",
+        "source": "com.example.myapp-main-40:/drawable/bg_camera_badge.xml"
     },
     {
         "merged": "/home/kali/.gradle/daemon/9.7.1/com.example.myapp-debug-38:/drawable_ic_flip_camera.xml.flat",
@@ -88,36 +148,12 @@
         "source": "/home/kali/.gradle/daemon/9.7.1/com.example.myapp-main-40:/drawable/ic_location.xml"
     },
     {
-        "merged": "/home/kali/.gradle/daemon/9.7.1/com.example.myapp-debug-38:/drawable_ic_sync.xml.flat",
-        "source": "/home/kali/.gradle/daemon/9.7.1/com.example.myapp-main-40:/drawable/ic_sync.xml"
-    },
-    {
         "merged": "/home/kali/.gradle/daemon/9.7.1/com.example.myapp-debug-38:/drawable_ic_overdue.xml.flat",
         "source": "/home/kali/.gradle/daemon/9.7.1/com.example.myapp-main-40:/drawable/ic_overdue.xml"
     },
     {
-        "merged": "/home/kali/.gradle/daemon/9.7.1/com.example.myapp-debug-38:/drawable_bg_offline_dot.xml.flat",
-        "source": "/home/kali/.gradle/daemon/9.7.1/com.example.myapp-main-40:/drawable/bg_offline_dot.xml"
-    },
-    {
         "merged": "/home/kali/.gradle/daemon/9.7.1/com.example.myapp-debug-38:/layout_fragment_sync.xml.flat",
         "source": "/home/kali/.gradle/daemon/9.7.1/com.example.myapp-main-40:/layout/fragment_sync.xml"
-    },
-    {
-        "merged": "/home/kali/.gradle/daemon/9.7.1/com.example.myapp-debug-38:/drawable_ic_notification.xml.flat",
-        "source": "/home/kali/.gradle/daemon/9.7.1/com.example.myapp-main-40:/drawable/ic_notification.xml"
-    },
-    {
-        "merged": "/home/kali/.gradle/daemon/9.7.1/com.example.myapp-debug-38:/drawable_ic_cloud_sync.xml.flat",
-        "source": "/home/kali/.gradle/daemon/9.7.1/com.example.myapp-main-40:/drawable/ic_cloud_sync.xml"
-    },
-    {
-        "merged": "/home/kali/.gradle/daemon/9.7.1/com.example.myapp-debug-38:/drawable_bg_primary_button.xml.flat",
-        "source": "/home/kali/.gradle/daemon/9.7.1/com.example.myapp-main-40:/drawable/bg_primary_button.xml"
-    },
-    {
-        "merged": "/home/kali/.gradle/daemon/9.7.1/com.example.myapp-debug-38:/drawable_bg_notification_dot.xml.flat",
-        "source": "/home/kali/.gradle/daemon/9.7.1/com.example.myapp-main-40:/drawable/bg_notification_dot.xml"
     },
     {
         "merged": "/home/kali/.gradle/daemon/9.7.1/com.example.myapp-debug-38:/layout_item_inspection_card.xml.flat",
@@ -128,12 +164,8 @@
         "source": "/home/kali/.gradle/daemon/9.7.1/com.example.myapp-main-40:/layout/fragment_capture.xml"
     },
     {
-        "merged": "/home/kali/.gradle/daemon/9.7.1/com.example.myapp-debug-38:/drawable_ic_discard.xml.flat",
-        "source": "/home/kali/.gradle/daemon/9.7.1/com.example.myapp-main-40:/drawable/ic_discard.xml"
-    },
-    {
-        "merged": "/home/kali/.gradle/daemon/9.7.1/com.example.myapp-debug-38:/drawable_ic_time.xml.flat",
-        "source": "/home/kali/.gradle/daemon/9.7.1/com.example.myapp-main-40:/drawable/ic_time.xml"
+        "merged": "/home/kali/.gradle/daemon/9.7.1/com.example.myapp-debug-38:/drawable_bg_tab_selected.xml.flat",
+        "source": "/home/kali/.gradle/daemon/9.7.1/com.example.myapp-main-40:/drawable/bg_tab_selected.xml"
     },
     {
         "merged": "/home/kali/.gradle/daemon/9.7.1/com.example.myapp-debug-38:/drawable_bg_status_card.xml.flat",
@@ -148,20 +180,8 @@
         "source": "/home/kali/.gradle/daemon/9.7.1/com.example.myapp-main-40:/drawable/bg_online_dot.xml"
     },
     {
-        "merged": "com.example.myapp-debug-38:/drawable_bg_sync_button.xml.flat",
-        "source": "com.example.myapp-main-40:/drawable/bg_sync_button.xml"
-    },
-    {
-        "merged": "/home/kali/.gradle/daemon/9.7.1/com.example.myapp-debug-38:/drawable_ic_assigned.xml.flat",
-        "source": "/home/kali/.gradle/daemon/9.7.1/com.example.myapp-main-40:/drawable/ic_assigned.xml"
-    },
-    {
         "merged": "/home/kali/.gradle/daemon/9.7.1/com.example.myapp-debug-38:/layout_item_sync_card.xml.flat",
         "source": "/home/kali/.gradle/daemon/9.7.1/com.example.myapp-main-40:/layout/item_sync_card.xml"
-    },
-    {
-        "merged": "/home/kali/.gradle/daemon/9.7.1/com.example.myapp-debug-38:/drawable_ic_shutter.xml.flat",
-        "source": "/home/kali/.gradle/daemon/9.7.1/com.example.myapp-main-40:/drawable/ic_shutter.xml"
     },
     {
         "merged": "/home/kali/.gradle/daemon/9.7.1/com.example.myapp-debug-38:/drawable_bg_red_status_card.xml.flat",
