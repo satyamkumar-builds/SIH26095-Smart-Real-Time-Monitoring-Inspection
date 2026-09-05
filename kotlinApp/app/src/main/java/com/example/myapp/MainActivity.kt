@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
 
         val bottomNav = findViewById<BottomNavigationView>(R.id.bottom_navigation)
 
-        // Default screen on launch: TasksFragment (which includes the dedicated TopBar)
+        // Default screen on launch: TasksFragment
         if (savedInstanceState == null) {
             replaceFragment(TasksFragment())
         }
@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
                     true
                 }
                 R.id.navigation_capture -> {
-                    replaceFragment(GenericFragment.newInstance("Capture Screen"))
+                    replaceFragment(CaptureFragment())
                     true
                 }
                 R.id.navigation_sync -> {

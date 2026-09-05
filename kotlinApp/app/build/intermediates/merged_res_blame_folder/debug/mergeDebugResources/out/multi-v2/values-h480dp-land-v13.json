@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.myapp-mergeDebugResources-29:/values-h480dp-land-v13/values-h480dp-land-v13.xml",
+            "outputFile": "com.example.myapp-mergeDebugResources-36:/values-h480dp-land-v13/values-h480dp-land-v13.xml",
             "map": [
                 {
                     "source": "/home/kali/.gradle/caches/9.7.1/transforms/7f5c3626694e69145724af7e3e06595b/transformed/material-1.11.0/res/values-h480dp-land-v13/values-h480dp-land-v13.xml",

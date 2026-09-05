@@ -1,16 +1,25 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/kali/Desktop/SIH26095-Smart-Real-Time-Monitoring-Inspection/kotlinApp/app/src/main/AndroidManifest.xml:2:1-20:12
-INJECTED from /home/kali/Desktop/SIH26095-Smart-Real-Time-Monitoring-Inspection/kotlinApp/app/src/main/AndroidManifest.xml:2:1-20:12
-INJECTED from /home/kali/Desktop/SIH26095-Smart-Real-Time-Monitoring-Inspection/kotlinApp/app/src/main/AndroidManifest.xml:2:1-20:12
-INJECTED from /home/kali/Desktop/SIH26095-Smart-Real-Time-Monitoring-Inspection/kotlinApp/app/src/main/AndroidManifest.xml:2:1-20:12
+ADDED from /home/kali/Desktop/SIH26095-Smart-Real-Time-Monitoring-Inspection/kotlinApp/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /home/kali/Desktop/SIH26095-Smart-Real-Time-Monitoring-Inspection/kotlinApp/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /home/kali/Desktop/SIH26095-Smart-Real-Time-Monitoring-Inspection/kotlinApp/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /home/kali/Desktop/SIH26095-Smart-Real-Time-Monitoring-Inspection/kotlinApp/app/src/main/AndroidManifest.xml:2:1-27:12
 MERGED from [com.google.android.material:material:1.11.0] /home/kali/.gradle/caches/9.7.1/transforms/7f5c3626694e69145724af7e3e06595b/transformed/material-1.11.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.camera:camera-video:1.3.2] /home/kali/.gradle/caches/9.7.1/transforms/4165388f47d7cea834f9cf78b365741f/transformed/camera-video-1.3.2/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.camera:camera-lifecycle:1.3.2] /home/kali/.gradle/caches/9.7.1/transforms/56f1077c78195293f0c043ca7ac78c4e/transformed/camera-lifecycle-1.3.2/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.camera:camera-camera2:1.3.2] /home/kali/.gradle/caches/9.7.1/transforms/269b388698a3f8222fd669d3f97370f6/transformed/camera-camera2-1.3.2/AndroidManifest.xml:17:1-36:12
+MERGED from [androidx.camera:camera-core:1.3.2] /home/kali/.gradle/caches/9.7.1/transforms/de067fd3c55263457d9e49bc0b952715/transformed/camera-core-1.3.2/AndroidManifest.xml:17:1-36:12
+MERGED from [androidx.camera:camera-view:1.3.2] /home/kali/.gradle/caches/9.7.1/transforms/610e083aa38d6005466ec54a0bda7e32/transformed/camera-view-1.3.2/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /home/kali/.gradle/caches/9.7.1/transforms/02ed51219ab85d7e623ff0654f528bc5/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /home/kali/.gradle/caches/9.7.1/transforms/d369a8e7e33a391bb774e27ffa910c7c/transformed/constraintlayout-2.0.1/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.6.1] /home/kali/.gradle/caches/9.7.1/transforms/4e42a1cba643f070000b4857972af0a4/transformed/appcompat-1.6.1/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /home/kali/.gradle/caches/9.7.1/transforms/1dc2b397ec8fa353aa06c1c25a48c379/transformed/emoji2-views-helper-1.2.0/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.emoji2:emoji2:1.2.0] /home/kali/.gradle/caches/9.7.1/transforms/3015aafa52e35630ba6b3ab784787d2c/transformed/emoji2-1.2.0/AndroidManifest.xml:17:1-35:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/kali/.gradle/caches/9.7.1/transforms/4014f1daf49dd511155144eb2f3edade/transformed/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-location:21.2.0] /home/kali/.gradle/caches/9.7.1/transforms/0983bd7d63740af8c83321e73a76b0dd/transformed/play-services-location-21.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:18.3.0] /home/kali/.gradle/caches/9.7.1/transforms/7e67a0b2cc728b514a35b0fa867f4603/transformed/play-services-base-18.3.0/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] /home/kali/.gradle/caches/9.7.1/transforms/6e33be0b81b39bbb2ddf5d2e61608441/transformed/play-services-tasks-18.1.0/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] /home/kali/.gradle/caches/9.7.1/transforms/be18d78b52203ca9364d4f8da07de3f9/transformed/play-services-basement-18.3.0/AndroidManifest.xml:16:1-26:12
 MERGED from [androidx.fragment:fragment:1.3.6] /home/kali/.gradle/caches/9.7.1/transforms/a34d98033b093b062797a496aa861e3f/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.activity:activity:1.8.0] /home/kali/.gradle/caches/9.7.1/transforms/65d5d08b1d47b01f510e47593db781b4/transformed/activity-1.8.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/kali/.gradle/caches/9.7.1/transforms/126d5269703dfe745f658dad1c21ef04/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
@@ -33,9 +42,10 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] /home/kali/.gradle/ca
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] /home/kali/.gradle/caches/9.7.1/transforms/ff15c6f8350a6c32ef363927ef8967f2/transformed/lifecycle-runtime-2.6.1/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] /home/kali/.gradle/caches/9.7.1/transforms/561f8d18428b1e3c85a14e5112bb3ce5/transformed/lifecycle-viewmodel-savedstate-2.6.1/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.core:core-ktx:1.12.0] /home/kali/.gradle/caches/9.7.1/transforms/2ce51d32d630b6388d1f27162790d757/transformed/core-ktx-1.12.0/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.annotation:annotation-experimental:1.3.0] /home/kali/.gradle/caches/9.7.1/transforms/899eecc4fb594b5da2f2352c762c1aa3/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.1] /home/kali/.gradle/caches/9.7.1/transforms/396986f1af473e2bfdc531477e04c6cc/transformed/annotation-experimental-1.3.1/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/kali/.gradle/caches/9.7.1/transforms/6d41d5e01530c47fa0a92aeb43977379/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.cardview:cardview:1.0.0] /home/kali/.gradle/caches/9.7.1/transforms/ed271fa5062d0d292bdff0ef05930b1d/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.2] /home/kali/.gradle/caches/9.7.1/transforms/e750a201a487d38d440c94826e668864/transformed/exifinterface-1.3.2/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] /home/kali/.gradle/caches/9.7.1/transforms/bcaff148dd32af888df66435fa05f9de/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/kali/.gradle/caches/9.7.1/transforms/64115b7101c97359bc7d47f09a16aff7/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/kali/.gradle/caches/9.7.1/transforms/56024c54036aeec9a1422092f5b8fb7b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:17:1-55:12
@@ -53,15 +63,49 @@ MERGED from [androidx.print:print:1.0.0] /home/kali/.gradle/caches/9.7.1/transfo
 		INJECTED from /home/kali/Desktop/SIH26095-Smart-Real-Time-Monitoring-Inspection/kotlinApp/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /home/kali/Desktop/SIH26095-Smart-Real-Time-Monitoring-Inspection/kotlinApp/app/src/main/AndroidManifest.xml:2:11-69
+uses-feature#android.hardware.camera.any
+ADDED from /home/kali/Desktop/SIH26095-Smart-Real-Time-Monitoring-Inspection/kotlinApp/app/src/main/AndroidManifest.xml:4:5-64
+	android:name
+		ADDED from /home/kali/Desktop/SIH26095-Smart-Real-Time-Monitoring-Inspection/kotlinApp/app/src/main/AndroidManifest.xml:4:19-61
+uses-permission#android.permission.CAMERA
+ADDED from /home/kali/Desktop/SIH26095-Smart-Real-Time-Monitoring-Inspection/kotlinApp/app/src/main/AndroidManifest.xml:5:5-65
+	android:name
+		ADDED from /home/kali/Desktop/SIH26095-Smart-Real-Time-Monitoring-Inspection/kotlinApp/app/src/main/AndroidManifest.xml:5:22-62
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /home/kali/Desktop/SIH26095-Smart-Real-Time-Monitoring-Inspection/kotlinApp/app/src/main/AndroidManifest.xml:6:5-79
+	android:name
+		ADDED from /home/kali/Desktop/SIH26095-Smart-Real-Time-Monitoring-Inspection/kotlinApp/app/src/main/AndroidManifest.xml:6:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /home/kali/Desktop/SIH26095-Smart-Real-Time-Monitoring-Inspection/kotlinApp/app/src/main/AndroidManifest.xml:7:5-81
+	android:name
+		ADDED from /home/kali/Desktop/SIH26095-Smart-Real-Time-Monitoring-Inspection/kotlinApp/app/src/main/AndroidManifest.xml:7:22-78
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/kali/Desktop/SIH26095-Smart-Real-Time-Monitoring-Inspection/kotlinApp/app/src/main/AndroidManifest.xml:8:5-108
+	android:maxSdkVersion
+		ADDED from /home/kali/Desktop/SIH26095-Smart-Real-Time-Monitoring-Inspection/kotlinApp/app/src/main/AndroidManifest.xml:8:79-105
+	android:name
+		ADDED from /home/kali/Desktop/SIH26095-Smart-Real-Time-Monitoring-Inspection/kotlinApp/app/src/main/AndroidManifest.xml:8:22-78
 application
-ADDED from /home/kali/Desktop/SIH26095-Smart-Real-Time-Monitoring-Inspection/kotlinApp/app/src/main/AndroidManifest.xml:3:5-19:19
-INJECTED from /home/kali/Desktop/SIH26095-Smart-Real-Time-Monitoring-Inspection/kotlinApp/app/src/main/AndroidManifest.xml:3:5-19:19
+ADDED from /home/kali/Desktop/SIH26095-Smart-Real-Time-Monitoring-Inspection/kotlinApp/app/src/main/AndroidManifest.xml:10:5-26:19
+INJECTED from /home/kali/Desktop/SIH26095-Smart-Real-Time-Monitoring-Inspection/kotlinApp/app/src/main/AndroidManifest.xml:10:5-26:19
 MERGED from [com.google.android.material:material:1.11.0] /home/kali/.gradle/caches/9.7.1/transforms/7f5c3626694e69145724af7e3e06595b/transformed/material-1.11.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.11.0] /home/kali/.gradle/caches/9.7.1/transforms/7f5c3626694e69145724af7e3e06595b/transformed/material-1.11.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.camera:camera-camera2:1.3.2] /home/kali/.gradle/caches/9.7.1/transforms/269b388698a3f8222fd669d3f97370f6/transformed/camera-camera2-1.3.2/AndroidManifest.xml:23:5-34:19
+MERGED from [androidx.camera:camera-camera2:1.3.2] /home/kali/.gradle/caches/9.7.1/transforms/269b388698a3f8222fd669d3f97370f6/transformed/camera-camera2-1.3.2/AndroidManifest.xml:23:5-34:19
+MERGED from [androidx.camera:camera-core:1.3.2] /home/kali/.gradle/caches/9.7.1/transforms/de067fd3c55263457d9e49bc0b952715/transformed/camera-core-1.3.2/AndroidManifest.xml:23:5-34:19
+MERGED from [androidx.camera:camera-core:1.3.2] /home/kali/.gradle/caches/9.7.1/transforms/de067fd3c55263457d9e49bc0b952715/transformed/camera-core-1.3.2/AndroidManifest.xml:23:5-34:19
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /home/kali/.gradle/caches/9.7.1/transforms/d369a8e7e33a391bb774e27ffa910c7c/transformed/constraintlayout-2.0.1/AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /home/kali/.gradle/caches/9.7.1/transforms/d369a8e7e33a391bb774e27ffa910c7c/transformed/constraintlayout-2.0.1/AndroidManifest.xml:9:5-20
 MERGED from [androidx.emoji2:emoji2:1.2.0] /home/kali/.gradle/caches/9.7.1/transforms/3015aafa52e35630ba6b3ab784787d2c/transformed/emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
 MERGED from [androidx.emoji2:emoji2:1.2.0] /home/kali/.gradle/caches/9.7.1/transforms/3015aafa52e35630ba6b3ab784787d2c/transformed/emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [com.google.android.gms:play-services-location:21.2.0] /home/kali/.gradle/caches/9.7.1/transforms/0983bd7d63740af8c83321e73a76b0dd/transformed/play-services-location-21.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:21.2.0] /home/kali/.gradle/caches/9.7.1/transforms/0983bd7d63740af8c83321e73a76b0dd/transformed/play-services-location-21.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-base:18.3.0] /home/kali/.gradle/caches/9.7.1/transforms/7e67a0b2cc728b514a35b0fa867f4603/transformed/play-services-base-18.3.0/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.3.0] /home/kali/.gradle/caches/9.7.1/transforms/7e67a0b2cc728b514a35b0fa867f4603/transformed/play-services-base-18.3.0/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] /home/kali/.gradle/caches/9.7.1/transforms/6e33be0b81b39bbb2ddf5d2e61608441/transformed/play-services-tasks-18.1.0/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] /home/kali/.gradle/caches/9.7.1/transforms/6e33be0b81b39bbb2ddf5d2e61608441/transformed/play-services-tasks-18.1.0/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] /home/kali/.gradle/caches/9.7.1/transforms/be18d78b52203ca9364d4f8da07de3f9/transformed/play-services-basement-18.3.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] /home/kali/.gradle/caches/9.7.1/transforms/be18d78b52203ca9364d4f8da07de3f9/transformed/play-services-basement-18.3.0/AndroidManifest.xml:20:5-24:19
 MERGED from [androidx.core:core:1.12.0] /home/kali/.gradle/caches/9.7.1/transforms/f7a9bce0793abfc1b145de89f3800428/transformed/core-1.12.0/AndroidManifest.xml:28:5-89
 MERGED from [androidx.core:core:1.12.0] /home/kali/.gradle/caches/9.7.1/transforms/f7a9bce0793abfc1b145de89f3800428/transformed/core-1.12.0/AndroidManifest.xml:28:5-89
 MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /home/kali/.gradle/caches/9.7.1/transforms/26ce5504d4cd9e519c075263e6c01705/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:23:5-33:19
@@ -77,41 +121,51 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] /home/kali/.gradle/caches/9
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.12.0] /home/kali/.gradle/caches/9.7.1/transforms/f7a9bce0793abfc1b145de89f3800428/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
 	android:label
-		ADDED from /home/kali/Desktop/SIH26095-Smart-Real-Time-Monitoring-Inspection/kotlinApp/app/src/main/AndroidManifest.xml:6:9-31
+		ADDED from /home/kali/Desktop/SIH26095-Smart-Real-Time-Monitoring-Inspection/kotlinApp/app/src/main/AndroidManifest.xml:13:9-31
 	android:icon
-		ADDED from /home/kali/Desktop/SIH26095-Smart-Real-Time-Monitoring-Inspection/kotlinApp/app/src/main/AndroidManifest.xml:5:9-58
+		ADDED from /home/kali/Desktop/SIH26095-Smart-Real-Time-Monitoring-Inspection/kotlinApp/app/src/main/AndroidManifest.xml:12:9-58
 	android:allowBackup
-		ADDED from /home/kali/Desktop/SIH26095-Smart-Real-Time-Monitoring-Inspection/kotlinApp/app/src/main/AndroidManifest.xml:4:9-35
+		ADDED from /home/kali/Desktop/SIH26095-Smart-Real-Time-Monitoring-Inspection/kotlinApp/app/src/main/AndroidManifest.xml:11:9-35
 	android:theme
-		ADDED from /home/kali/Desktop/SIH26095-Smart-Real-Time-Monitoring-Inspection/kotlinApp/app/src/main/AndroidManifest.xml:7:9-65
+		ADDED from /home/kali/Desktop/SIH26095-Smart-Real-Time-Monitoring-Inspection/kotlinApp/app/src/main/AndroidManifest.xml:14:9-65
 activity#com.example.myapp.MainActivity
-ADDED from /home/kali/Desktop/SIH26095-Smart-Real-Time-Monitoring-Inspection/kotlinApp/app/src/main/AndroidManifest.xml:8:9-15:20
+ADDED from /home/kali/Desktop/SIH26095-Smart-Real-Time-Monitoring-Inspection/kotlinApp/app/src/main/AndroidManifest.xml:15:9-22:20
 	android:exported
-		ADDED from /home/kali/Desktop/SIH26095-Smart-Real-Time-Monitoring-Inspection/kotlinApp/app/src/main/AndroidManifest.xml:10:13-36
+		ADDED from /home/kali/Desktop/SIH26095-Smart-Real-Time-Monitoring-Inspection/kotlinApp/app/src/main/AndroidManifest.xml:17:13-36
 	android:name
-		ADDED from /home/kali/Desktop/SIH26095-Smart-Real-Time-Monitoring-Inspection/kotlinApp/app/src/main/AndroidManifest.xml:9:13-41
+		ADDED from /home/kali/Desktop/SIH26095-Smart-Real-Time-Monitoring-Inspection/kotlinApp/app/src/main/AndroidManifest.xml:16:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/kali/Desktop/SIH26095-Smart-Real-Time-Monitoring-Inspection/kotlinApp/app/src/main/AndroidManifest.xml:11:13-14:29
+ADDED from /home/kali/Desktop/SIH26095-Smart-Real-Time-Monitoring-Inspection/kotlinApp/app/src/main/AndroidManifest.xml:18:13-21:29
 action#android.intent.action.MAIN
-ADDED from /home/kali/Desktop/SIH26095-Smart-Real-Time-Monitoring-Inspection/kotlinApp/app/src/main/AndroidManifest.xml:12:17-69
+ADDED from /home/kali/Desktop/SIH26095-Smart-Real-Time-Monitoring-Inspection/kotlinApp/app/src/main/AndroidManifest.xml:19:17-69
 	android:name
-		ADDED from /home/kali/Desktop/SIH26095-Smart-Real-Time-Monitoring-Inspection/kotlinApp/app/src/main/AndroidManifest.xml:12:25-66
+		ADDED from /home/kali/Desktop/SIH26095-Smart-Real-Time-Monitoring-Inspection/kotlinApp/app/src/main/AndroidManifest.xml:19:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/kali/Desktop/SIH26095-Smart-Real-Time-Monitoring-Inspection/kotlinApp/app/src/main/AndroidManifest.xml:13:17-77
+ADDED from /home/kali/Desktop/SIH26095-Smart-Real-Time-Monitoring-Inspection/kotlinApp/app/src/main/AndroidManifest.xml:20:17-77
 	android:name
-		ADDED from /home/kali/Desktop/SIH26095-Smart-Real-Time-Monitoring-Inspection/kotlinApp/app/src/main/AndroidManifest.xml:13:27-74
+		ADDED from /home/kali/Desktop/SIH26095-Smart-Real-Time-Monitoring-Inspection/kotlinApp/app/src/main/AndroidManifest.xml:20:27-74
 activity#com.example.myapp.NotificationActivity
-ADDED from /home/kali/Desktop/SIH26095-Smart-Real-Time-Monitoring-Inspection/kotlinApp/app/src/main/AndroidManifest.xml:16:9-18:40
+ADDED from /home/kali/Desktop/SIH26095-Smart-Real-Time-Monitoring-Inspection/kotlinApp/app/src/main/AndroidManifest.xml:23:9-25:40
 	android:exported
-		ADDED from /home/kali/Desktop/SIH26095-Smart-Real-Time-Monitoring-Inspection/kotlinApp/app/src/main/AndroidManifest.xml:18:13-37
+		ADDED from /home/kali/Desktop/SIH26095-Smart-Real-Time-Monitoring-Inspection/kotlinApp/app/src/main/AndroidManifest.xml:25:13-37
 	android:name
-		ADDED from /home/kali/Desktop/SIH26095-Smart-Real-Time-Monitoring-Inspection/kotlinApp/app/src/main/AndroidManifest.xml:17:13-49
+		ADDED from /home/kali/Desktop/SIH26095-Smart-Real-Time-Monitoring-Inspection/kotlinApp/app/src/main/AndroidManifest.xml:24:13-49
 uses-sdk
 INJECTED from /home/kali/Desktop/SIH26095-Smart-Real-Time-Monitoring-Inspection/kotlinApp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/kali/Desktop/SIH26095-Smart-Real-Time-Monitoring-Inspection/kotlinApp/app/src/main/AndroidManifest.xml
 INJECTED from /home/kali/Desktop/SIH26095-Smart-Real-Time-Monitoring-Inspection/kotlinApp/app/src/main/AndroidManifest.xml
 MERGED from [com.google.android.material:material:1.11.0] /home/kali/.gradle/caches/9.7.1/transforms/7f5c3626694e69145724af7e3e06595b/transformed/material-1.11.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.11.0] /home/kali/.gradle/caches/9.7.1/transforms/7f5c3626694e69145724af7e3e06595b/transformed/material-1.11.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.camera:camera-video:1.3.2] /home/kali/.gradle/caches/9.7.1/transforms/4165388f47d7cea834f9cf78b365741f/transformed/camera-video-1.3.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera:camera-video:1.3.2] /home/kali/.gradle/caches/9.7.1/transforms/4165388f47d7cea834f9cf78b365741f/transformed/camera-video-1.3.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera:camera-lifecycle:1.3.2] /home/kali/.gradle/caches/9.7.1/transforms/56f1077c78195293f0c043ca7ac78c4e/transformed/camera-lifecycle-1.3.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera:camera-lifecycle:1.3.2] /home/kali/.gradle/caches/9.7.1/transforms/56f1077c78195293f0c043ca7ac78c4e/transformed/camera-lifecycle-1.3.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera:camera-camera2:1.3.2] /home/kali/.gradle/caches/9.7.1/transforms/269b388698a3f8222fd669d3f97370f6/transformed/camera-camera2-1.3.2/AndroidManifest.xml:21:5-44
+MERGED from [androidx.camera:camera-camera2:1.3.2] /home/kali/.gradle/caches/9.7.1/transforms/269b388698a3f8222fd669d3f97370f6/transformed/camera-camera2-1.3.2/AndroidManifest.xml:21:5-44
+MERGED from [androidx.camera:camera-core:1.3.2] /home/kali/.gradle/caches/9.7.1/transforms/de067fd3c55263457d9e49bc0b952715/transformed/camera-core-1.3.2/AndroidManifest.xml:21:5-44
+MERGED from [androidx.camera:camera-core:1.3.2] /home/kali/.gradle/caches/9.7.1/transforms/de067fd3c55263457d9e49bc0b952715/transformed/camera-core-1.3.2/AndroidManifest.xml:21:5-44
+MERGED from [androidx.camera:camera-view:1.3.2] /home/kali/.gradle/caches/9.7.1/transforms/610e083aa38d6005466ec54a0bda7e32/transformed/camera-view-1.3.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera:camera-view:1.3.2] /home/kali/.gradle/caches/9.7.1/transforms/610e083aa38d6005466ec54a0bda7e32/transformed/camera-view-1.3.2/AndroidManifest.xml:5:5-44
 MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /home/kali/.gradle/caches/9.7.1/transforms/02ed51219ab85d7e623ff0654f528bc5/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /home/kali/.gradle/caches/9.7.1/transforms/02ed51219ab85d7e623ff0654f528bc5/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /home/kali/.gradle/caches/9.7.1/transforms/d369a8e7e33a391bb774e27ffa910c7c/transformed/constraintlayout-2.0.1/AndroidManifest.xml:5:5-7:41
@@ -124,6 +178,14 @@ MERGED from [androidx.emoji2:emoji2:1.2.0] /home/kali/.gradle/caches/9.7.1/trans
 MERGED from [androidx.emoji2:emoji2:1.2.0] /home/kali/.gradle/caches/9.7.1/transforms/3015aafa52e35630ba6b3ab784787d2c/transformed/emoji2-1.2.0/AndroidManifest.xml:21:5-44
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/kali/.gradle/caches/9.7.1/transforms/4014f1daf49dd511155144eb2f3edade/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/kali/.gradle/caches/9.7.1/transforms/4014f1daf49dd511155144eb2f3edade/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-location:21.2.0] /home/kali/.gradle/caches/9.7.1/transforms/0983bd7d63740af8c83321e73a76b0dd/transformed/play-services-location-21.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:21.2.0] /home/kali/.gradle/caches/9.7.1/transforms/0983bd7d63740af8c83321e73a76b0dd/transformed/play-services-location-21.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:18.3.0] /home/kali/.gradle/caches/9.7.1/transforms/7e67a0b2cc728b514a35b0fa867f4603/transformed/play-services-base-18.3.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.3.0] /home/kali/.gradle/caches/9.7.1/transforms/7e67a0b2cc728b514a35b0fa867f4603/transformed/play-services-base-18.3.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] /home/kali/.gradle/caches/9.7.1/transforms/6e33be0b81b39bbb2ddf5d2e61608441/transformed/play-services-tasks-18.1.0/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] /home/kali/.gradle/caches/9.7.1/transforms/6e33be0b81b39bbb2ddf5d2e61608441/transformed/play-services-tasks-18.1.0/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] /home/kali/.gradle/caches/9.7.1/transforms/be18d78b52203ca9364d4f8da07de3f9/transformed/play-services-basement-18.3.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] /home/kali/.gradle/caches/9.7.1/transforms/be18d78b52203ca9364d4f8da07de3f9/transformed/play-services-basement-18.3.0/AndroidManifest.xml:18:5-43
 MERGED from [androidx.fragment:fragment:1.3.6] /home/kali/.gradle/caches/9.7.1/transforms/a34d98033b093b062797a496aa861e3f/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.3.6] /home/kali/.gradle/caches/9.7.1/transforms/a34d98033b093b062797a496aa861e3f/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.activity:activity:1.8.0] /home/kali/.gradle/caches/9.7.1/transforms/65d5d08b1d47b01f510e47593db781b4/transformed/activity-1.8.0/AndroidManifest.xml:20:5-44
@@ -168,12 +230,14 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] /home/kali
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] /home/kali/.gradle/caches/9.7.1/transforms/561f8d18428b1e3c85a14e5112bb3ce5/transformed/lifecycle-viewmodel-savedstate-2.6.1/AndroidManifest.xml:20:5-44
 MERGED from [androidx.core:core-ktx:1.12.0] /home/kali/.gradle/caches/9.7.1/transforms/2ce51d32d630b6388d1f27162790d757/transformed/core-ktx-1.12.0/AndroidManifest.xml:5:5-44
 MERGED from [androidx.core:core-ktx:1.12.0] /home/kali/.gradle/caches/9.7.1/transforms/2ce51d32d630b6388d1f27162790d757/transformed/core-ktx-1.12.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.annotation:annotation-experimental:1.3.0] /home/kali/.gradle/caches/9.7.1/transforms/899eecc4fb594b5da2f2352c762c1aa3/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.annotation:annotation-experimental:1.3.0] /home/kali/.gradle/caches/9.7.1/transforms/899eecc4fb594b5da2f2352c762c1aa3/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.1] /home/kali/.gradle/caches/9.7.1/transforms/396986f1af473e2bfdc531477e04c6cc/transformed/annotation-experimental-1.3.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.1] /home/kali/.gradle/caches/9.7.1/transforms/396986f1af473e2bfdc531477e04c6cc/transformed/annotation-experimental-1.3.1/AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/kali/.gradle/caches/9.7.1/transforms/6d41d5e01530c47fa0a92aeb43977379/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/kali/.gradle/caches/9.7.1/transforms/6d41d5e01530c47fa0a92aeb43977379/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] /home/kali/.gradle/caches/9.7.1/transforms/ed271fa5062d0d292bdff0ef05930b1d/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] /home/kali/.gradle/caches/9.7.1/transforms/ed271fa5062d0d292bdff0ef05930b1d/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.3.2] /home/kali/.gradle/caches/9.7.1/transforms/e750a201a487d38d440c94826e668864/transformed/exifinterface-1.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.2] /home/kali/.gradle/caches/9.7.1/transforms/e750a201a487d38d440c94826e668864/transformed/exifinterface-1.3.2/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.interpolator:interpolator:1.0.0] /home/kali/.gradle/caches/9.7.1/transforms/bcaff148dd32af888df66435fa05f9de/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] /home/kali/.gradle/caches/9.7.1/transforms/bcaff148dd32af888df66435fa05f9de/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/kali/.gradle/caches/9.7.1/transforms/64115b7101c97359bc7d47f09a16aff7/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
@@ -196,6 +260,26 @@ MERGED from [androidx.print:print:1.0.0] /home/kali/.gradle/caches/9.7.1/transfo
 		INJECTED from /home/kali/Desktop/SIH26095-Smart-Real-Time-Monitoring-Inspection/kotlinApp/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
 		INJECTED from /home/kali/Desktop/SIH26095-Smart-Real-Time-Monitoring-Inspection/kotlinApp/app/src/main/AndroidManifest.xml
+service#androidx.camera.core.impl.MetadataHolderService
+ADDED from [androidx.camera:camera-camera2:1.3.2] /home/kali/.gradle/caches/9.7.1/transforms/269b388698a3f8222fd669d3f97370f6/transformed/camera-camera2-1.3.2/AndroidManifest.xml:24:9-33:19
+MERGED from [androidx.camera:camera-core:1.3.2] /home/kali/.gradle/caches/9.7.1/transforms/de067fd3c55263457d9e49bc0b952715/transformed/camera-core-1.3.2/AndroidManifest.xml:29:9-33:78
+MERGED from [androidx.camera:camera-core:1.3.2] /home/kali/.gradle/caches/9.7.1/transforms/de067fd3c55263457d9e49bc0b952715/transformed/camera-core-1.3.2/AndroidManifest.xml:29:9-33:78
+	tools:node
+		ADDED from [androidx.camera:camera-camera2:1.3.2] /home/kali/.gradle/caches/9.7.1/transforms/269b388698a3f8222fd669d3f97370f6/transformed/camera-camera2-1.3.2/AndroidManifest.xml:29:13-31
+	android:enabled
+		ADDED from [androidx.camera:camera-camera2:1.3.2] /home/kali/.gradle/caches/9.7.1/transforms/269b388698a3f8222fd669d3f97370f6/transformed/camera-camera2-1.3.2/AndroidManifest.xml:26:13-36
+	android:exported
+		ADDED from [androidx.camera:camera-camera2:1.3.2] /home/kali/.gradle/caches/9.7.1/transforms/269b388698a3f8222fd669d3f97370f6/transformed/camera-camera2-1.3.2/AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.camera:camera-camera2:1.3.2] /home/kali/.gradle/caches/9.7.1/transforms/269b388698a3f8222fd669d3f97370f6/transformed/camera-camera2-1.3.2/AndroidManifest.xml:28:13-75
+	android:name
+		ADDED from [androidx.camera:camera-camera2:1.3.2] /home/kali/.gradle/caches/9.7.1/transforms/269b388698a3f8222fd669d3f97370f6/transformed/camera-camera2-1.3.2/AndroidManifest.xml:25:13-75
+meta-data#androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER
+ADDED from [androidx.camera:camera-camera2:1.3.2] /home/kali/.gradle/caches/9.7.1/transforms/269b388698a3f8222fd669d3f97370f6/transformed/camera-camera2-1.3.2/AndroidManifest.xml:30:13-32:89
+	android:value
+		ADDED from [androidx.camera:camera-camera2:1.3.2] /home/kali/.gradle/caches/9.7.1/transforms/269b388698a3f8222fd669d3f97370f6/transformed/camera-camera2-1.3.2/AndroidManifest.xml:32:17-86
+	android:name
+		ADDED from [androidx.camera:camera-camera2:1.3.2] /home/kali/.gradle/caches/9.7.1/transforms/269b388698a3f8222fd669d3f97370f6/transformed/camera-camera2-1.3.2/AndroidManifest.xml:31:17-103
 provider#androidx.startup.InitializationProvider
 ADDED from [androidx.emoji2:emoji2:1.2.0] /home/kali/.gradle/caches/9.7.1/transforms/3015aafa52e35630ba6b3ab784787d2c/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
 MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /home/kali/.gradle/caches/9.7.1/transforms/26ce5504d4cd9e519c075263e6c01705/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:24:9-32:20
@@ -218,6 +302,20 @@ ADDED from [androidx.emoji2:emoji2:1.2.0] /home/kali/.gradle/caches/9.7.1/transf
 		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/kali/.gradle/caches/9.7.1/transforms/3015aafa52e35630ba6b3ab784787d2c/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
 	android:name
 		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/kali/.gradle/caches/9.7.1/transforms/3015aafa52e35630ba6b3ab784787d2c/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.3.0] /home/kali/.gradle/caches/9.7.1/transforms/7e67a0b2cc728b514a35b0fa867f4603/transformed/play-services-base-18.3.0/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.3.0] /home/kali/.gradle/caches/9.7.1/transforms/7e67a0b2cc728b514a35b0fa867f4603/transformed/play-services-base-18.3.0/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.3.0] /home/kali/.gradle/caches/9.7.1/transforms/7e67a0b2cc728b514a35b0fa867f4603/transformed/play-services-base-18.3.0/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.3.0] /home/kali/.gradle/caches/9.7.1/transforms/7e67a0b2cc728b514a35b0fa867f4603/transformed/play-services-base-18.3.0/AndroidManifest.xml:20:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.3.0] /home/kali/.gradle/caches/9.7.1/transforms/be18d78b52203ca9364d4f8da07de3f9/transformed/play-services-basement-18.3.0/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.3.0] /home/kali/.gradle/caches/9.7.1/transforms/be18d78b52203ca9364d4f8da07de3f9/transformed/play-services-basement-18.3.0/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.3.0] /home/kali/.gradle/caches/9.7.1/transforms/be18d78b52203ca9364d4f8da07de3f9/transformed/play-services-basement-18.3.0/AndroidManifest.xml:22:13-58
 permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.12.0] /home/kali/.gradle/caches/9.7.1/transforms/f7a9bce0793abfc1b145de89f3800428/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
 	android:protectionLevel
