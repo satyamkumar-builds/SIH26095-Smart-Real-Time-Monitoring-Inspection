@@ -21,7 +21,7 @@
         android:extractNativeLibs="false"
         android:icon="@android:drawable/sym_def_app_icon"
         android:label="My App"
-        android:theme="@style/Theme.AppCompat.Light.DarkActionBar" >
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
         <activity
             android:name="com.example.myapp.MainActivity"
             android:exported="true" >
@@ -31,6 +31,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.example.myapp.NotificationActivity"
+            android:exported="false" />
 
         <provider
             android:name="androidx.startup.InitializationProvider"

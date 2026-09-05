@@ -1,3 +1,35 @@
 R_DEF: Internal format may change without notice
 local
+color bottom_nav_colors
+drawable bg_notification_dot
+drawable bg_offline_dot
+drawable bg_online_dot
+drawable bg_profile_circle
+drawable ic_capture
+drawable ic_notification
+drawable ic_profile
+drawable ic_sync
+drawable ic_tasks
+id bottom_navigation
+id btn_notification
+id fragment_container
+id img_notification_icon
+id img_profile_dp
+id left_info_container
+id navigation_capture
+id navigation_profile
+id navigation_sync
+id navigation_tasks
+id right_actions_container
+id text_tasks_placeholder
+id topbar_tasks
+id tv_greeting
+id tv_placeholder_title
+id tv_user_status
+id view_notification_dot
+id view_status_dot
 layout activity_main
+layout activity_notification
+layout fragment_placeholder
+layout fragment_tasks
+menu bottom_nav_menu

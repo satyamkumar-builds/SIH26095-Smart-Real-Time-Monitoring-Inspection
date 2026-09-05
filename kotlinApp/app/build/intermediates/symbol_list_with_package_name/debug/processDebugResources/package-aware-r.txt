@@ -1267,6 +1267,7 @@ color background_floating_material_dark
 color background_floating_material_light
 color background_material_dark
 color background_material_light
+color bottom_nav_colors
 color bright_foreground_disabled_material_dark
 color bright_foreground_disabled_material_light
 color bright_foreground_inverse_material_dark
@@ -2881,6 +2882,10 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
+drawable bg_notification_dot
+drawable bg_offline_dot
+drawable bg_online_dot
+drawable bg_profile_circle
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -2901,6 +2906,7 @@ drawable ic_call_answer_video
 drawable ic_call_answer_video_low
 drawable ic_call_decline
 drawable ic_call_decline_low
+drawable ic_capture
 drawable ic_clear_black_24
 drawable ic_clock_black_24dp
 drawable ic_keyboard_black_24dp
@@ -2911,7 +2917,11 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable ic_notification
+drawable ic_profile
 drawable ic_search_black_24
+drawable ic_sync
+drawable ic_tasks
 drawable m3_avd_hide_password
 drawable m3_avd_show_password
 drawable m3_bottom_sheet_drag_handle
@@ -3074,7 +3084,9 @@ id beginOnFirstDraw
 id beginning
 id blocking
 id bottom
+id bottom_navigation
 id bounce
+id btn_notification
 id buttonPanel
 id cancel_button
 id center
@@ -3160,6 +3172,7 @@ id fixed
 id flip
 id floating
 id forever
+id fragment_container
 id fragment_container_view_tag
 id fullscreen_header
 id ghost_view
@@ -3181,6 +3194,8 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id img_notification_icon
+id img_profile_dp
 id indeterminate
 id info
 id invisible
@@ -3193,6 +3208,7 @@ id labeled
 id layout
 id left
 id leftToRight
+id left_info_container
 id legacy
 id line1
 id line3
@@ -3264,7 +3280,11 @@ id navigation_bar_item_icon_view
 id navigation_bar_item_labels_group
 id navigation_bar_item_large_label_view
 id navigation_bar_item_small_label_view
+id navigation_capture
 id navigation_header_container
+id navigation_profile
+id navigation_sync
+id navigation_tasks
 id never
 id noScroll
 id none
@@ -3314,6 +3334,7 @@ id report_drawn
 id reverseSawtooth
 id right
 id rightToLeft
+id right_actions_container
 id right_icon
 id right_side
 id rounded
@@ -3397,6 +3418,7 @@ id textTop
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
+id text_tasks_placeholder
 id textinput_counter
 id textinput_error
 id textinput_helper_text
@@ -3410,6 +3432,7 @@ id title_template
 id toggle
 id top
 id topPanel
+id topbar_tasks
 id touch_outside
 id transitionToEnd
 id transitionToStart
@@ -3419,12 +3442,17 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id tv_greeting
+id tv_placeholder_title
+id tv_user_status
 id unchecked
 id uniform
 id unlabeled
 id up
 id useLogo
+id view_notification_dot
 id view_offset_helper
+id view_status_dot
 id view_tree_lifecycle_owner
 id view_tree_on_back_pressed_dispatcher_owner
 id view_tree_saved_state_registry_owner
@@ -3551,6 +3579,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_main
+layout activity_notification
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -3567,6 +3596,8 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout fragment_placeholder
+layout fragment_tasks
 layout ime_base_split_test_activity
 layout ime_secondary_split_test_activity
 layout m3_alert_dialog
@@ -3630,6 +3661,7 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
+menu bottom_nav_menu
 plurals mtrl_badge_content_description
 string abc_action_bar_home_description
 string abc_action_bar_up_description

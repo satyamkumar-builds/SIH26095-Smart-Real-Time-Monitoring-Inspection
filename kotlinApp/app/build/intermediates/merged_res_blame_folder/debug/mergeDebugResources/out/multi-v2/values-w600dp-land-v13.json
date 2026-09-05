@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.myapp-mergeDebugResources-2:/values-w600dp-land-v13/values-w600dp-land-v13.xml",
+            "outputFile": "com.example.myapp-mergeDebugResources-29:/values-w600dp-land-v13/values-w600dp-land-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\WKing\\.gradle\\caches\\9.7.1\\transforms\\7f5c3626694e69145724af7e3e06595b\\transformed\\material-1.11.0\\res\\values-w600dp-land-v13\\values-w600dp-land-v13.xml",
+                    "source": "/home/kali/.gradle/caches/9.7.1/transforms/7f5c3626694e69145724af7e3e06595b/transformed/material-1.11.0/res/values-w600dp-land-v13/values-w600dp-land-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

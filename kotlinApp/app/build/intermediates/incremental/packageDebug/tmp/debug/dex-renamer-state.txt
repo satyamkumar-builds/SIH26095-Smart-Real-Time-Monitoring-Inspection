@@ -1,10 +1,10 @@
-#Fri Sep 04 12:03:56 IST 2026
-base.2=C\:\\SIH26095-Smart-Real-Time-Monitoring-Inspection\\kotlinApp\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\1\\classes.dex
-path.2=1/classes.dex
-base.1=C\:\\SIH26095-Smart-Real-Time-Monitoring-Inspection\\kotlinApp\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
-path.1=0/classes.dex
-base.0=C\:\\SIH26095-Smart-Real-Time-Monitoring-Inspection\\kotlinApp\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
-renamed.2=classes3.dex
-renamed.1=classes2.dex
-renamed.0=classes.dex
+#Sat Sep 05 19:48:21 IST 2026
+base.0=/home/kali/Desktop/SIH26095-Smart-Real-Time-Monitoring-Inspection/kotlinApp/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
+base.1=/home/kali/Desktop/SIH26095-Smart-Real-Time-Monitoring-Inspection/kotlinApp/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
+base.2=/home/kali/Desktop/SIH26095-Smart-Real-Time-Monitoring-Inspection/kotlinApp/app/build/intermediates/dex/debug/mergeProjectDexDebug/1/classes.dex
 path.0=classes.dex
+path.1=0/classes.dex
+path.2=1/classes.dex
+renamed.0=classes.dex
+renamed.1=classes2.dex
+renamed.2=classes3.dex

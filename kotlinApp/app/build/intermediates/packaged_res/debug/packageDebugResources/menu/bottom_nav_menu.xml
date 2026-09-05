@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_tasks"
+        android:icon="@drawable/ic_tasks"
+        android:title="Tasks" />
+    <item
+        android:id="@+id/navigation_capture"
+        android:icon="@drawable/ic_capture"
+        android:title="Capture" />
+    <item
+        android:id="@+id/navigation_sync"
+        android:icon="@drawable/ic_sync"
+        android:title="Sync" />
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/ic_profile"
+        android:title="Profile" />
+</menu>

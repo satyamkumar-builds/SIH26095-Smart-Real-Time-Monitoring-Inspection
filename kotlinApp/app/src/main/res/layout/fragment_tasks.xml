@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F9FA">
+
+    <!-- topbar of tasks tab -->
+    <RelativeLayout
+        android:id="@+id/topbar_tasks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:elevation="4dp"
+        android:paddingHorizontal="16dp"
+        android:paddingVertical="14dp">
+
+        <!--left align contents -->
+        <LinearLayout
+            android:id="@+id/left_info_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/right_actions_container"
+            android:orientation="vertical">
+
+            <!-- greeting -->
+            <TextView
+                android:id="@+id/tv_greeting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Good Morning, Rahul"
+                android:textColor="#1A1A1A"
+                android:textSize="23sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <!-- Status dot -->
+                <View
+                    android:id="@+id/view_status_dot"
+                    android:layout_width="8dp"
+                    android:layout_height="8dp"
+                    android:layout_marginRight="6dp"
+                    android:background="@drawable/bg_online_dot" />
+
+                <!-- sync status -->
+                <TextView
+                    android:id="@+id/tv_user_status"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Online - Sync Pending"
+                    android:textColor="#666666"
+                    android:textSize="13sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Right aligned contents -->
+        <LinearLayout
+            android:id="@+id/right_actions_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <!-- notification option -->
+            <RelativeLayout
+                android:id="@+id/btn_notification"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="8dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:clickable="true"
+                android:focusable="true">
+
+                <!-- notification icon -->
+                <ImageView
+                    android:id="@+id/img_notification_icon"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_centerInParent="true"
+                    android:contentDescription="Notifications"
+                    android:src="@drawable/ic_notification" />
+
+                <!-- red dot -->
+                <View
+                    android:id="@+id/view_notification_dot"
+                    android:layout_width="9dp"
+                    android:layout_height="9dp"
+                    android:layout_alignTop="@id/img_notification_icon"
+                    android:layout_alignRight="@id/img_notification_icon"
+                    android:layout_marginTop="-1dp"
+                    android:layout_marginRight="-1dp"
+                    android:background="@drawable/bg_notification_dot"
+                    android:visibility="visible" />
+            </RelativeLayout>
+
+            <!-- User DP -->
+            <ImageView
+                android:id="@+id/img_profile_dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/bg_profile_circle"
+                android:clickable="true"
+                android:contentDescription="Profile Picture"
+                android:focusable="true"
+                android:padding="6dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/ic_profile" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <!-- Tasks Main Screen Content Below Topbar -->
+    <TextView
+        android:id="@+id/text_tasks_placeholder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/topbar_tasks"
+        android:layout_centerInParent="true"
+        android:text="Tasks Content Area"
+        android:textColor="#888888"
+        android:textSize="18sp" />
+
+</RelativeLayout>
