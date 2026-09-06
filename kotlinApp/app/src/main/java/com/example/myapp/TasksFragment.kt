@@ -1,29 +1,30 @@
 package com.example.myapp
 
+import android.content.Context
 import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
-import android.widget.ImageView
 import android.widget.LinearLayout
 import android.widget.TextView
 import android.widget.Toast
 import androidx.fragment.app.Fragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
+import de.hdodenhof.circleimageview.CircleImageView
 import org.json.JSONArray
+import java.io.File
 import java.util.Calendar
 
 class TasksFragment : Fragment() {
 
-    // Dynamic State Variables for User Info & Status
     private var userFirstName: String = "Rahul"
     private var isOnline: Boolean = true
     private var syncStatus: String = "Sync Pending"
     private var hasUnreadNotifications: Boolean = true
 
-    // Dynamic Variables for Status Card Values
     private var assignedCount: Int = 8
     private var inProgressCount: Int = 5
     private var completedCount: Int = 24
@@ -36,42 +37,41 @@ class TasksFragment : Fragment() {
     ): View? {
         val view = inflater.inflate(R.layout.fragment_tasks, container, false)
 
-        // TopBar Views
         val tvGreeting = view.findViewById<TextView>(R.id.tv_greeting)
         val tvUserStatus = view.findViewById<TextView>(R.id.tv_user_status)
         val viewStatusDot = view.findViewById<View>(R.id.view_status_dot)
         val viewNotificationDot = view.findViewById<View>(R.id.view_notification_dot)
         val btnNotification = view.findViewById<View>(R.id.btn_notification)
-        val imgProfileDp = view.findViewById<ImageView>(R.id.img_profile_dp)
+        val imgProfileDp = view.findViewById<CircleImageView>(R.id.img_profile_dp)
 
-        // Grid Card Count Views
         val tvCountAssigned = view.findViewById<TextView>(R.id.tv_count_assigned)
         val tvCountInProgress = view.findViewById<TextView>(R.id.tv_count_in_progress)
         val tvCountCompleted = view.findViewById<TextView>(R.id.tv_count_completed)
         val tvCountOverdue = view.findViewById<TextView>(R.id.tv_count_overdue)
 
-        // Action Button & Inspection Cards Container
         val btnStartInspection = view.findViewById<Button>(R.id.btn_start_inspection)
         val containerCards = view.findViewById<LinearLayout>(R.id.container_inspection_cards)
 
-        // 1. Set Dynamic Time-Based Greeting
+        // 1. Load User Preferences (First Name & Saved DP File Path)
+        loadUserPreferences(imgProfileDp)
+
+        // 2. Set Dynamic Time-Based Greeting
         val timeGreeting = getGreetingForCurrentTime()
         tvGreeting.text = "$timeGreeting, $userFirstName"
 
-        // 2. Set Status (Online/Offline + Sync status)
+        // 3. Set Status & Counts
         updateStatusDisplay(tvUserStatus, viewStatusDot)
         viewNotificationDot.visibility = if (hasUnreadNotifications) View.VISIBLE else View.GONE
 
-        // 3. Set Status Card Numbers Dynamically
         tvCountAssigned.text = assignedCount.toString()
         tvCountInProgress.text = inProgressCount.toString()
         tvCountCompleted.text = completedCount.toString()
         tvCountOverdue.text = overdueCount.toString()
 
-        // 4. Load Inspections from JSON & Populate Cards
+        // 4. Load Inspections from JSON
         loadInspectionsFromJson(inflater, containerCards)
 
-        // 5. TopBar Click Listeners
+        // 5. Click Listeners
         btnNotification.setOnClickListener {
             val intent = Intent(requireContext(), NotificationActivity::class.java)
             startActivity(intent)
@@ -81,12 +81,24 @@ class TasksFragment : Fragment() {
             activity?.findViewById<BottomNavigationView>(R.id.bottom_navigation)?.selectedItemId = R.id.navigation_profile
         }
 
-        // 6. Start Inspection Button Click Listener
         btnStartInspection.setOnClickListener {
             Toast.makeText(requireContext(), "Start Inspection clicked", Toast.LENGTH_SHORT).show()
         }
 
         return view
+    }
+
+    private fun loadUserPreferences(imgProfileDp: CircleImageView) {
+        val prefs = requireContext().getSharedPreferences("user_prefs", Context.MODE_PRIVATE)
+        userFirstName = prefs.getString("user_first_name", "Rahul") ?: "Rahul"
+
+        val dpPath = prefs.getString("custom_dp_path", null)
+        if (dpPath != null) {
+            val file = File(dpPath)
+            if (file.exists()) {
+                imgProfileDp.setImageURI(Uri.fromFile(file))
+            }
+        }
     }
 
     private fun getGreetingForCurrentTime(): String {

@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F9FA">
+
+    <!-- Scrollable Profile Content -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/tv_footer_credits"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <!-- Centered Circular User DP Container -->
+            <RelativeLayout
+                android:id="@+id/container_dp"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="24dp"
+                android:clickable="true"
+                android:focusable="true">
+
+                <!-- Perfect Circular Crop ImageView -->
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/img_profile_avatar"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:contentDescription="User Avatar"
+                    android:src="@drawable/ic_profile"
+                    app:civ_border_color="#CCCCCC"
+                    app:civ_border_width="1dp"
+                    app:civ_circle_background_color="#E0E0E0" />
+
+                <!-- Camera Overlay Icon Badge -->
+                <ImageView
+                    android:id="@+id/btn_change_dp"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:background="@drawable/bg_camera_badge"
+                    android:contentDescription="Change DP"
+                    android:padding="7dp"
+                    android:src="@drawable/ic_camera_overlay" />
+            </RelativeLayout>
+
+            <!-- User Name Display -->
+            <TextView
+                android:id="@+id/tv_profile_display_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="Rahul"
+                android:textColor="#1A1A1A"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <!-- Tab Switcher: Profile vs Settings -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginTop="24dp"
+                android:background="#EAEAEA"
+                android:padding="4dp">
+
+                <TextView
+                    android:id="@+id/tab_btn_profile"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_tab_selected"
+                    android:gravity="center"
+                    android:text="Profile"
+                    android:textColor="#FFFFFF"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tab_btn_settings"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_tab_unselected"
+                    android:gravity="center"
+                    android:text="Settings"
+                    android:textColor="#666666"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <!-- PROFILE FORM LAYOUT -->
+            <LinearLayout
+                android:id="@+id/layout_profile_form"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <!-- First Name Field -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="First Name"
+                    android:textColor="#555555"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/et_first_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="4dp"
+                    android:background="@drawable/bg_status_card"
+                    android:hint="First Name"
+                    android:inputType="textPersonName"
+                    android:paddingHorizontal="14dp"
+                    android:text="Rahul"
+                    android:textColor="#1A1A1A"
+                    android:textSize="15sp" />
+
+                <!-- Last Name Field -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="14dp"
+                    android:text="Last Name"
+                    android:textColor="#555555"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/et_last_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="4dp"
+                    android:background="@drawable/bg_status_card"
+                    android:hint="Last Name"
+                    android:inputType="textPersonName"
+                    android:paddingHorizontal="14dp"
+                    android:text="Sharma"
+                    android:textColor="#1A1A1A"
+                    android:textSize="15sp" />
+
+                <!-- Email Field -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="14dp"
+                    android:text="Email Address"
+                    android:textColor="#555555"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/et_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="4dp"
+                    android:background="@drawable/bg_status_card"
+                    android:hint="Email Address"
+                    android:inputType="textEmailAddress"
+                    android:paddingHorizontal="14dp"
+                    android:text="rahul.sharma@example.com"
+                    android:textColor="#1A1A1A"
+                    android:textSize="15sp" />
+
+                <!-- Phone Field -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="14dp"
+                    android:text="Phone Number"
+                    android:textColor="#555555"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/et_phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="4dp"
+                    android:background="@drawable/bg_status_card"
+                    android:hint="Phone Number"
+                    android:inputType="phone"
+                    android:paddingHorizontal="14dp"
+                    android:text="+91 9876543210"
+                    android:textColor="#1A1A1A"
+                    android:textSize="15sp" />
+
+                <!-- Save Profile Details Button -->
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btn_save_profile"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/bg_primary_button"
+                    android:text="Save Profile"
+                    android:textAllCaps="false"
+                    android:textColor="#FFFFFF"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <!-- SETTINGS LAYOUT -->
+            <LinearLayout
+                android:id="@+id/layout_settings_form"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="App Theme"
+                    android:textColor="#555555"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <RadioGroup
+                    android:id="@+id/rg_theme"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/bg_status_card"
+                    android:padding="12dp">
+
+                    <RadioButton
+                        android:id="@+id/rb_theme_light"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:padding="8dp"
+                        android:text="Light Mode"
+                        android:textSize="15sp" />
+
+                    <RadioButton
+                        android:id="@+id/rb_theme_dark"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:text="Dark Mode"
+                        android:textSize="15sp" />
+                </RadioGroup>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- Bottom Footer Text -->
+    <TextView
+        android:id="@+id/tv_footer_credits"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#FFFFFF"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:paddingVertical="14dp"
+        android:text="Made with ❤️ by Rox"
+        android:textColor="#0056b3"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

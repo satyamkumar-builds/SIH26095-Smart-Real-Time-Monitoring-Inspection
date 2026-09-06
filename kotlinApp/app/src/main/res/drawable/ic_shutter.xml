@@ -1,0 +1,16 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="72dp"
+    android:height="72dp"
+    android:viewportWidth="72"
+    android:viewportHeight="72">
+    <!-- Outer Ring -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:strokeColor="#555555"
+        android:strokeWidth="4"
+        android:pathData="M36,2 C54.78,2 70,17.22 70,36 C70,54.78 54.78,70 36,70 C17.22,70 2,54.78 2,36 C2,17.22 17.22,2 36,2 Z" />
+    <!-- Inner Solid Shutter Circle -->
+    <path
+        android:fillColor="#555555"
+        android:pathData="M36,9 C50.91,9 63,21.09 63,36 C63,50.91 50.91,63 36,63 C21.09,63 9,50.91 9,36 C9,21.09 21.09,9 36,9 Z" />
+</vector>

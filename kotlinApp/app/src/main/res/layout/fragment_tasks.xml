@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#F8F9FA">
 
-    <!-- STILL TOPBAR SPECIFIC TO TASKS PAGE -->
+    <!-- TOPBAR SPECIFIC TO TASKS PAGE -->
     <RelativeLayout
         android:id="@+id/topbar_tasks"
         android:layout_width="match_parent"
@@ -96,21 +97,22 @@
                     android:visibility="visible" />
             </RelativeLayout>
 
-            <ImageView
+            <!-- Circular User Profile DP -->
+            <de.hdodenhof.circleimageview.CircleImageView
                 android:id="@+id/img_profile_dp"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                android:background="@drawable/bg_profile_circle"
                 android:clickable="true"
                 android:contentDescription="Profile Picture"
                 android:focusable="true"
-                android:padding="6dp"
-                android:scaleType="centerInside"
-                android:src="@drawable/ic_profile" />
+                android:src="@drawable/ic_profile"
+                app:civ_border_color="#CCCCCC"
+                app:civ_border_width="1dp"
+                app:civ_circle_background_color="#E0E0E0" />
         </LinearLayout>
     </RelativeLayout>
 
-    <!-- MAIN SCROLLABLE CONTENT AREA (TOPBAR STAYS STILL AT TOP) -->
+    <!-- MAIN SCROLLABLE CONTENT AREA -->
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -122,7 +124,7 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <!-- 1. PREVIOUS ROOT CONTAINER: STATUS GRID & START BUTTON -->
+            <!-- STATUS GRID & START BUTTON MODULE -->
             <LinearLayout
                 android:id="@+id/module_status_container"
                 android:layout_width="match_parent"
@@ -273,7 +275,7 @@
                         android:layout_rowWeight="1"
                         android:layout_columnWeight="1"
                         android:layout_margin="6dp"
-                        android:background="@drawable/bg_red_status_card"
+                        android:background="@drawable/bg_status_card"
                         android:elevation="2dp"
                         android:padding="12dp">
 
@@ -324,7 +326,7 @@
                     android:textStyle="bold" />
             </LinearLayout>
 
-            <!-- 2. NEW ROOT CONTAINER: TODAY'S INSPECTION MODULE -->
+            <!-- TODAY'S INSPECTION MODULE -->
             <LinearLayout
                 android:id="@+id/root_todays_inspections"
                 android:layout_width="match_parent"
@@ -333,18 +335,16 @@
                 android:paddingHorizontal="22dp"
                 android:paddingBottom="24dp">
 
-                <!-- Header Left Aligned -->
                 <TextView
                     android:id="@+id/tv_header_todays_inspections"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="12dp"
-                    android:text="Today's Inspections"
+                    android:text="Today's Inspection"
                     android:textColor="#1A1A1A"
-                    android:textSize="26sp"
+                    android:textSize="18sp"
                     android:textStyle="bold" />
 
-                <!-- Dynamic Container where JSON Cards are inflated -->
                 <LinearLayout
                     android:id="@+id/container_inspection_cards"
                     android:layout_width="match_parent"

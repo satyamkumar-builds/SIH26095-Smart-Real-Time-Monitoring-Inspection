@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.myapp-mergeDebugResources-29:/values-v23/values-v23.xml",
+            "outputFile": "com.example.myapp-mergeDebugResources-37:/values-v23/values-v23.xml",
             "map": [
                 {
                     "source": "/home/kali/.gradle/caches/9.7.1/transforms/ed271fa5062d0d292bdff0ef05930b1d/transformed/cardview-1.0.0/res/values-v23/values-v23.xml",
