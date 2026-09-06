@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Location Review | Inspection Monitoring
+  </title>
+  <link href="18-style.css" rel="stylesheet"/>
+  <script defer="" src="19-site.js">
+  </script>
+ </head>
+ <body>
+  <header class="top-header">
+   <div class="government-identity">
+    <div class="identity-mark">
+     GOI
+    </div>
+    <div class="identity-text">
+     <div class="govt-name">
+      Government of India
+     </div>
+     <div class="ministry-name">
+      Ministry of Social Justice and Empowerment
+     </div>
+     <div class="department-name">
+      Department of Social Justice and Empowerment
+     </div>
+    </div>
+   </div>
+   <div class="header-actions">
+    <a href="#">
+     Hindi
+    </a>
+    <a href="#">
+     Accessibility
+    </a>
+    <a href="17-support.html">
+     Help
+    </a>
+    <div class="user-summary">
+     <strong data-user-name="">
+      Supervisor
+     </strong>
+     <span>
+      Inspection Monitoring
+     </span>
+    </div>
+    <button class="header-menu-button" data-action="toggle-sidebar" type="button">
+     Menu
+    </button>
+   </div>
+  </header>
+  <div class="application">
+   <aside class="sidebar">
+    <div class="sidebar-heading">
+     INSPECTION MONITORING
+    </div>
+    <nav class="sidebar-navigation">
+     <div class="nav-group">
+      <div class="nav-group-title">
+       Monitoring
+      </div>
+      <a class="nav-link" href="02-index.html">
+       <span class="nav-icon">
+        ▦
+       </span>
+       <span>
+        Dashboard
+       </span>
+      </a>
+      <a class="nav-link" href="03-inspections.html">
+       <span class="nav-icon">
+        □
+       </span>
+       <span>
+        Inspections
+       </span>
+      </a>
+      <a class="nav-link" href="04-inspection-assignment.html">
+       <span class="nav-icon">
+        ↗
+       </span>
+       <span>
+        Inspection Assignment
+       </span>
+      </a>
+     </div>
+     <div class="nav-group">
+      <div class="nav-group-title">
+       Verification
+      </div>
+      <a class="nav-link" href="06-evidence.html">
+       <span class="nav-icon">
+        ▣
+       </span>
+       <span>
+        Evidence &amp; Records
+       </span>
+      </a>
+      <a class="nav-link active" href="07-location-review.html">
+       <span class="nav-icon">
+        ⌖
+       </span>
+       <span>
+        Location Review
+       </span>
+      </a>
+      <a class="nav-link" href="10-live-monitoring.html">
+       <span class="nav-icon">
+        ◉
+       </span>
+       <span>
+        Live Monitoring
+       </span>
+      </a>
+      <a class="nav-link" href="11-random-vc.html">
+       <span class="nav-icon">
+        ◇
+       </span>
+       <span>
+        Random VC
+       </span>
+      </a>
+     </div>
+     <div class="nav-group">
+      <div class="nav-group-title">
+       Follow-up
+      </div>
+      <a class="nav-link" href="08-issues.html">
+       <span class="nav-icon">
+        △
+       </span>
+       <span>
+        Issues &amp; Actions
+       </span>
+      </a>
+      <a class="nav-link" href="09-reinspection.html">
+       <span class="nav-icon">
+        ↻
+       </span>
+       <span>
+        Re-inspection
+       </span>
+      </a>
+     </div>
+     <div class="nav-group">
+      <div class="nav-group-title">
+       Reporting
+      </div>
+      <a class="nav-link" href="12-analytics.html">
+       <span class="nav-icon">
+        ▥
+       </span>
+       <span>
+        Analytics
+       </span>
+      </a>
+      <a class="nav-link" href="13-reports.html">
+       <span class="nav-icon">
+        ≡
+       </span>
+       <span>
+        Reports
+       </span>
+      </a>
+      <a class="nav-link" href="14-notifications.html">
+       <span class="nav-icon">
+        !
+       </span>
+       <span>
+        Notifications
+       </span>
+      </a>
+     </div>
+     <div class="nav-group">
+      <div class="nav-group-title">
+       Administration
+      </div>
+      <a class="nav-link" href="15-users-roles.html">
+       <span class="nav-icon">
+        ⚙
+       </span>
+       <span>
+        Users &amp; Roles
+       </span>
+      </a>
+      <a class="nav-link" href="16-system-logs.html">
+       <span class="nav-icon">
+        ≣
+       </span>
+       <span>
+        System Logs
+       </span>
+      </a>
+     </div>
+    </nav>
+    <div class="sidebar-footer">
+     <a class="support-link" href="17-support.html">
+      Support
+     </a>
+     <button class="logout-link" data-action="logout" type="button">
+      Sign out
+     </button>
+     <div class="portal-status">
+      <span class="status-dot">
+      </span>
+      Portal Operational
+     </div>
+    </div>
+   </aside>
+   <main class="main-content">
+    <div class="content-container">
+     <div class="breadcrumb">
+      <a href="02-index.html">
+       Home
+      </a>
+      <span>
+       /
+      </span>
+      <span>
+       Location Review
+      </span>
+     </div>
+     <section class="page-heading">
+      <div>
+       <p class="page-label">
+        VERIFICATION
+       </p>
+       <h1>
+        Location Review
+       </h1>
+       <p>
+        Review submitted GPS information and compare it with the assigned location.
+       </p>
+      </div>
+     </section>
+     <section class="panel">
+      <div class="panel-header">
+       <div>
+        <h2>
+         Lookup inspection
+        </h2>
+        <p>
+         Enter an inspection ID to review its stored location metadata.
+        </p>
+       </div>
+      </div>
+      <form class="inline-form" id="locationLookup">
+       <input id="locationInspectionId" placeholder="Inspection ID" required=""/>
+       <button class="primary-button" type="submit">
+        Load record
+       </button>
+      </form>
+     </section>
+     <section class="panel">
+      <div class="panel-header">
+       <div>
+        <h2>
+         Submitted location
+        </h2>
+        <p>
+         Production systems should provide coordinates, accuracy and capture time from the inspection record.
+        </p>
+       </div>
+      </div>
+      <div class="location-review-box" id="locationResult">
+       <div class="empty-state">
+        <strong>
+         No location record loaded
+        </strong>
+        <p>
+         Location data will appear after an inspection is selected.
+        </p>
+       </div>
+      </div>
+     </section>
+     <section class="panel">
+      <div class="panel-header">
+       <div>
+        <h2>
+         Review decision
+        </h2>
+        <p>
+         Record a supervisor decision after reviewing the available data.
+        </p>
+       </div>
+      </div>
+      <form class="form-grid" id="locationDecisionForm">
+       <input id="locationDecisionInspection" name="inspectionId" type="hidden"/>
+       <div class="wide-field">
+        <label>
+         Decision
+        </label>
+        <div class="choice-row">
+         <label class="check-label">
+          <input name="decision" required="" type="radio" value="Verified"/>
+          Verified
+         </label>
+         <label class="check-label">
+          <input name="decision" type="radio" value="Needs Clarification"/>
+          Needs clarification
+         </label>
+         <label class="check-label">
+          <input name="decision" type="radio" value="Not Verified"/>
+          Not verified
+         </label>
+        </div>
+       </div>
+       <div class="wide-field">
+        <label for="locationRemarks">
+         Remarks
+        </label>
+        <textarea id="locationRemarks" name="remarks" rows="4"></textarea>
+       </div>
+       <div class="wide-field">
+        <button class="primary-button" type="submit">
+         Save location review
+        </button>
+       </div>
+      </form>
+     </section>
+     <footer class="page-footer">
+      <div>
+       Inspection Monitoring &amp; Compliance Portal
+      </div>
+      <div>
+       Administrative workspace
+      </div>
+     </footer>
+    </div>
+   </main>
+  </div>
+ </body>
+</html>
+
