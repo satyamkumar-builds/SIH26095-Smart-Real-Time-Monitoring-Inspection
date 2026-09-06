@@ -23,11 +23,4 @@ Frontend prototype using HTML, CSS and Vanilla JavaScript.
 18-style.css
 19-site.js
 
-## Run
-Open this folder in VS Code and use Live Server on `02-index.html`.
 
-## Data
-The initial state is empty. Data entered through the forms is stored in browser LocalStorage for prototype testing. No inspection, person, GPS, camera or report records are fabricated.
-
-## Production boundary
-Authentication, RBAC, immutable audit logs, database storage, file/object storage, GPS validation, CCTV/VC integration and API security must be implemented server-side for production.
